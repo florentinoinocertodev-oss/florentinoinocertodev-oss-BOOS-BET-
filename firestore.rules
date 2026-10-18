@@ -1,0 +1,105 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isAuthenticated() && request.auth.uid == uid;
+    }
+
+    function hasRole(role) {
+      return isAuthenticated() && request.auth.token.role == role;
+    }
+
+    function isCompliance() {
+      return hasRole('COMPLIANCE') || hasRole('SUPERADMIN');
+    }
+
+    function isTrader() {
+      return hasRole('TRADER') || hasRole('SUPERADMIN');
+    }
+
+    // Default deny-all fallback for unspecified collections
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    // 1. Users Profile
+    match /users/{uid} {
+      allow read: if isOwner(uid) || isCompliance();
+      // Only server / Cloud Functions creates users. Client can only update non-sensitive display fields.
+      allow create: if false;
+      allow update: if isOwner(uid) && 
+        !request.resource.data.diff(resource.data).affectedKeys().hasAny(['role', 'status', 'phone_number', 'uid', 'created_at']);
+      allow delete: if false;
+
+      // 1.1. Wallet (Passivo / Saldo): ESCRITA TOTALMENTE PROIBIDA AO CLIENTE
+      match /wallet/{docId} {
+        allow read: if isOwner(uid);
+        allow write: if false; // Mutação exclusiva via Cloud Functions / Admin SDK (OCC)
+      }
+
+      // 1.2. Ledger Postings: ESCRITA TOTALMENTE PROIBIDA AO CLIENTE
+      match /wallet/ledger/{postingId} {
+        allow read: if isOwner(uid);
+        allow write: if false; // Append-only exclusivo via Server
+      }
+
+      // 1.3. KYC Records: Metadados gerados pelo servidor
+      match /kyc/{docId} {
+        allow read: if isOwner(uid) || isCompliance();
+        allow write: if false; // Mutação e criação exclusivas via Callable Functions
+      }
+
+      // 1.4. Notifications
+      match /notifications/{notifId} {
+        allow read: if isOwner(uid);
+        allow update: if isOwner(uid) && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['read', 'read_at']);
+        allow create, delete: if false;
+      }
+    }
+
+    // 2. Bet Tickets: ESCRITA TOTALMENTE PROIBIDA AO CLIENTE
+    match /bets/{ticketId} {
+      allow read: if isAuthenticated() && (resource.data.uid == request.auth.uid || isTrader());
+      allow write: if false; // Emissão e liquidação exclusivas via Cloud Functions
+    }
+
+    // 3. Sports Events & Markets: Leitura pública, escrita apenas Traders/Workers
+    match /events/{eventId} {
+      allow read: if true;
+      allow write: if false; // Ingestão exclusiva via Sports Provider Worker
+
+      match /markets/{marketId} {
+        allow read: if true;
+        allow write: if false;
+      }
+    }
+
+    // 4. Financial Transactions & Journal Entries: Acesso restrito
+    match /financial_transactions/{txId} {
+      allow read: if isAuthenticated() && (resource.data.uid == request.auth.uid || hasRole('SUPERADMIN'));
+      allow write: if false;
+    }
+
+    match /journal_entries/{journalId} {
+      allow read: if hasRole('SUPERADMIN');
+      allow write: if false;
+    }
+
+    // 5. Idempotency Records: Gestão exclusiva do servidor
+    match /idempotency/{key} {
+      allow read, write: if false;
+    }
+
+    // 6. Audit Logs: Proibido acesso direto a clientes
+    match /audit_logs/{logId} {
+      allow read: if hasRole('SUPERADMIN');
+      allow write: if false; // Append-only via Admin SDK
+    }
+  }
+}

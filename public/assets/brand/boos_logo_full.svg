@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 480" width="100%" height="100%">
+  <defs>
+    <!-- Gold Metallic Gradients -->
+    <linearGradient id="fullGoldCrown" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFF2A3" />
+      <stop offset="25%" stopColor="#FFC21A" />
+      <stop offset="60%" stopColor="#F5A900" />
+      <stop offset="90%" stopColor="#D98000" />
+      <stop offset="100%" stopColor="#8A4800" />
+    </linearGradient>
+
+    <linearGradient id="fullGoldRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFDF73" />
+      <stop offset="30%" stopColor="#FFC21A" />
+      <stop offset="70%" stopColor="#F5A900" />
+      <stop offset="100%" stopColor="#B36B00" />
+    </linearGradient>
+
+    <linearGradient id="fullTextGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#FFE07A" />
+      <stop offset="25%" stopColor="#FFC21A" />
+      <stop offset="65%" stopColor="#F5A900" />
+      <stop offset="100%" stopColor="#C97400" />
+    </linearGradient>
+
+    <radialGradient id="fullNavyBackdrop" cx="50%" cy="50%" r="50%">
+      <stop offset="60%" stopColor="#06345A" />
+      <stop offset="95%" stopColor="#001426" />
+      <stop offset="100%" stopColor="#000c17" />
+    </radialGradient>
+
+    <linearGradient id="fullSkinTone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#C97A4A" />
+      <stop offset="50%" stopColor="#B16135" />
+      <stop offset="100%" stopColor="#85411E" />
+    </linearGradient>
+    
+    <linearGradient id="fullChainGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#FFDF73" />
+      <stop offset="50%" stopColor="#FFC21A" />
+      <stop offset="100%" stopColor="#F5A900" />
+    </linearGradient>
+    
+    <filter id="fullShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- ================= LEFT: MASCOTE SÍMBOLO ================= -->
+  <g transform="translate(10, 0)">
+    <!-- Outer Ring Crest Frame with Deep Navy Disc -->
+    <circle cx="240" cy="260" r="185" fill="url(#fullNavyBackdrop)" stroke="url(#fullGoldRing)" stroke-width="14" filter="url(#fullShadow)" />
+    <circle cx="240" cy="260" r="172" fill="none" stroke="#FFC21A" stroke-width="2" opacity="0.6" />
+
+    <!-- Neck -->
+    <path d="M 195 335 L 195 395 C 195 420 285 420 285 395 L 285 335 Z" fill="url(#fullSkinTone)" />
+    
+    <!-- Heavy Gold Cuban-link Chain -->
+    <path d="M 170 380 C 210 425 270 425 310 380" fill="none" stroke="url(#fullChainGold)" stroke-width="18" stroke-linecap="round" stroke-dasharray="14 4" />
+    <path d="M 185 395 C 220 435 260 435 295 395" fill="none" stroke="#F5A900" stroke-width="12" stroke-linecap="round" stroke-dasharray="10 4" />
+
+    <!-- Head / Jaw / Face Structure -->
+    <path d="M 165 235 C 155 275 160 320 190 360 C 210 385 270 385 290 360 C 320 320 325 275 315 235 C 310 190 170 190 165 235 Z" fill="url(#fullSkinTone)" filter="url(#fullShadow)" />
+
+    <!-- Hairline -->
+    <path d="M 164 220 C 175 190 220 180 240 180 C 260 180 305 190 316 220 C 310 233 300 225 285 225 C 265 225 260 220 240 220 C 220 220 215 225 195 225 C 180 225 170 233 164 220 Z" fill="#1A110B" />
+    <path d="M 162 230 L 165 280 C 168 285 173 280 173 270 L 171 235 Z" fill="#1A110B" />
+    <path d="M 318 230 L 315 280 C 312 285 307 280 307 270 L 309 235 Z" fill="#1A110B" />
+
+    <!-- Ears & Studs -->
+    <path d="M 160 250 C 148 260 148 290 163 300 Z" fill="#B16135" />
+    <circle cx="156" cy="280" r="4" fill="#FFC21A" />
+    <path d="M 320 250 C 332 260 332 290 317 300 Z" fill="#B16135" />
+    <circle cx="324" cy="280" r="4" fill="#FFC21A" />
+
+    <!-- Facial Hair -->
+    <path d="M 205 295 C 225 290 255 290 275 295 C 275 303 258 303 240 303 C 222 303 205 303 205 295 Z" fill="#1A110B" />
+    <path d="M 200 330 C 195 370 210 385 240 387 C 270 385 285 370 280 330 C 265 360 215 360 200 330 Z" fill="#1A110B" />
+
+    <!-- Left Eye -->
+    <ellipse cx="205" cy="250" rx="18" ry="12" fill="#FFFFFF" />
+    <circle cx="207" cy="250" r="8" fill="#3D1F0D" />
+    <circle cx="207" cy="250" r="4" fill="#000000" />
+    <circle cx="209" cy="248" r="2.5" fill="#FFFFFF" />
+    <path d="M 185 233 C 195 225 218 225 226 233" fill="none" stroke="#1A110B" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Right Eye (Wink) -->
+    <path d="M 254 250 C 265 243 280 243 294 252" fill="none" stroke="#1A110B" stroke-width="5" stroke-linecap="round" />
+    <path d="M 252 227 C 265 217 285 219 298 229" fill="none" stroke="#1A110B" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Nose -->
+    <path d="M 236 245 L 234 270 C 228 273 232 280 240 280 C 248 280 252 273 246 270 Z" fill="#9C4D24" />
+
+    <!-- Smile & Teeth -->
+    <path d="M 195 305 C 210 350 270 350 285 305 C 265 307 215 307 195 305 Z" fill="#FFFFFF" stroke="#661C08" stroke-width="3" />
+
+    <!-- Crown -->
+    <g id="crownFull" filter="url(#fullShadow)">
+      <path d="M 145 180 C 180 200 300 200 335 180 L 345 145 C 300 165 180 165 135 145 Z" fill="url(#fullGoldCrown)" stroke="#7A3D00" stroke-width="3" />
+      <path d="M 135 145 L 115 60 L 170 110 L 240 30 L 310 110 L 365 60 L 345 145 Z" fill="url(#fullGoldCrown)" stroke="#7A3D00" stroke-width="3" />
+
+      <circle cx="115" cy="60" r="9" fill="url(#fullGoldRing)" stroke="#8A4800" stroke-width="2" />
+      <circle cx="170" cy="110" r="8" fill="url(#fullGoldRing)" stroke="#8A4800" stroke-width="2" />
+      <circle cx="240" cy="30" r="12" fill="url(#fullGoldRing)" stroke="#8A4800" stroke-width="2.5" />
+      <circle cx="310" cy="110" r="8" fill="url(#fullGoldRing)" stroke="#8A4800" stroke-width="2" />
+      <circle cx="365" cy="60" r="9" fill="url(#fullGoldRing)" stroke="#8A4800" stroke-width="2" />
+
+      <rect x="218" y="110" width="44" height="48" rx="8" fill="url(#fullGoldRing)" stroke="#8A4800" stroke-width="2.5" />
+      <text x="240" y="146" font-family="'Syne', Arial, sans-serif" font-weight="900" font-size="34" fill="#001426" text-anchor="middle">B</text>
+    </g>
+  </g>
+
+  <!-- ================= RIGHT: BOOS BET WORDMARK ================= -->
+  <g transform="translate(480, 50)">
+    <!-- Small Crown over the two OO -->
+    <g transform="translate(255, 10) scale(0.95)" filter="url(#fullShadow)">
+      <path d="M 10 55 L 0 15 L 40 35 L 75 0 L 110 35 L 150 15 L 140 55 Z" fill="url(#fullGoldCrown)" stroke="#A35700" stroke-width="3" />
+      <circle cx="0" cy="15" r="5" fill="#FFE58F" stroke="#A35700" stroke-width="1.5" />
+      <circle cx="75" cy="0" r="7" fill="#FFE58F" stroke="#A35700" stroke-width="2" />
+      <circle cx="150" cy="15" r="5" fill="#FFE58F" stroke="#A35700" stroke-width="1.5" />
+    </g>
+
+    <!-- "BOOS" Extruded Letters -->
+    <g filter="url(#fullShadow)" transform="translate(0, 85)">
+      <!-- 'B' -->
+      <g transform="translate(0, 0)">
+        <path d="M 0 0 L 80 0 C 115 0 132 18 132 46 C 132 64 121 77 103 84 C 125 92 138 107 138 138 C 138 171 114 188 74 188 L 0 188 Z" fill="#8A4800" transform="translate(0, 6)" />
+        <path d="M 0 0 L 80 0 C 115 0 132 18 132 46 C 132 64 121 77 103 84 C 125 92 138 107 138 138 C 138 171 114 188 74 188 L 0 188 Z" fill="url(#fullTextGold)" stroke="#8A4800" stroke-width="4" />
+        <path d="M 48 35 L 72 35 C 85 35 92 41 92 52 C 92 63 85 70 72 70 L 48 70 Z" fill="#001426" />
+        <path d="M 48 107 L 74 107 C 90 107 96 115 96 127 C 96 140 90 148 74 148 L 48 148 Z" fill="#001426" />
+      </g>
+
+      <!-- First 'O' -->
+      <g transform="translate(150, 0)">
+        <circle cx="94" cy="100" r="94" fill="#8A4800" />
+        <circle cx="94" cy="94" r="94" fill="url(#fullTextGold)" stroke="#8A4800" stroke-width="4" />
+        <circle cx="94" cy="94" r="48" fill="#001426" stroke="#8A4800" stroke-width="3" />
+      </g>
+
+      <!-- Second 'O' -->
+      <g transform="translate(310, 0)">
+        <circle cx="94" cy="100" r="94" fill="#8A4800" />
+        <circle cx="94" cy="94" r="94" fill="url(#fullTextGold)" stroke="#8A4800" stroke-width="4" />
+        <circle cx="94" cy="94" r="48" fill="#001426" stroke="#8A4800" stroke-width="3" />
+      </g>
+
+      <!-- 'S' -->
+      <g transform="translate(480, 0)">
+        <path d="M 116 46 L 79 57 C 74 44 63 37 52 37 C 39 37 30 44 30 52 C 30 63 41 70 70 79 C 111 92 127 112 127 140 C 127 171 103 193 59 193 C 22 193 0 171 0 138 L 39 127 C 41 145 54 156 68 156 C 81 156 90 149 90 138 C 90 125 77 118 50 110 C 15 96 0 79 0 50 C 0 20 26 0 63 0 C 98 0 114 22 116 46 Z" fill="#8A4800" transform="translate(0, 6)" />
+        <path d="M 116 46 L 79 57 C 74 44 63 37 52 37 C 39 37 30 44 30 52 C 30 63 41 70 70 79 C 111 92 127 112 127 140 C 127 171 103 193 59 193 C 22 193 0 171 0 138 L 39 127 C 41 145 54 156 68 156 C 81 156 90 149 90 138 C 90 125 77 118 50 110 C 15 96 0 79 0 50 C 0 20 26 0 63 0 C 98 0 114 22 116 46 Z" fill="url(#fullTextGold)" stroke="#8A4800" stroke-width="4" />
+      </g>
+    </g>
+
+    <!-- "BET" Block Letters -->
+    <g filter="url(#fullShadow)" transform="translate(155, 305)">
+      <!-- B -->
+      <g transform="translate(0, 0)">
+        <path d="M 0 0 L 40 0 C 55 0 66 8 66 22 C 66 31 60 36 50 40 C 62 43 68 51 68 64 C 68 80 55 86 37 86 L 0 86 Z" fill="#8A4800" transform="translate(0, 4)" />
+        <path d="M 0 0 L 40 0 C 55 0 66 8 66 22 C 66 31 60 36 50 40 C 62 43 68 51 68 64 C 68 80 55 86 37 86 L 0 86 Z" fill="url(#fullTextGold)" stroke="#8A4800" stroke-width="3" />
+        <path d="M 20 18 L 33 18 C 40 18 44 21 44 26 C 44 32 40 35 33 35 L 20 35 Z" fill="#001426" />
+        <path d="M 20 51 L 35 51 C 42 51 46 54 46 61 C 46 67 42 70 35 70 L 20 70 Z" fill="#001426" />
+      </g>
+
+      <!-- E -->
+      <g transform="translate(145, 0)">
+        <path d="M 0 0 L 62 0 L 62 20 L 24 20 L 24 33 L 55 33 L 55 53 L 24 53 L 24 66 L 62 66 L 62 86 L 0 86 Z" fill="#8A4800" transform="translate(0, 4)" />
+        <path d="M 0 0 L 62 0 L 62 20 L 24 20 L 24 33 L 55 33 L 55 53 L 24 53 L 24 66 L 62 66 L 62 86 L 0 86 Z" fill="url(#fullTextGold)" stroke="#8A4800" stroke-width="3" />
+      </g>
+
+      <!-- T -->
+      <g transform="translate(290, 0)">
+        <path d="M 0 0 L 70 0 L 70 20 L 46 20 L 46 86 L 24 86 L 24 20 L 0 20 Z" fill="#8A4800" transform="translate(0, 4)" />
+        <path d="M 0 0 L 70 0 L 70 20 L 46 20 L 46 86 L 24 86 L 24 20 L 0 20 Z" fill="url(#fullTextGold)" stroke="#8A4800" stroke-width="3" />
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "Perfil de utilizador no BOOS BET com pseudónimo público e dados de conta",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "maxLength": 128 },
+        "phone_number": { "type": "string", "maxLength": 30 },
+        "pseudonym": { "type": "string", "maxLength": 50 },
+        "role": { "type": "string", "enum": ["USER", "TRADER", "COMPLIANCE", "SUPERADMIN"] },
+        "status": { "type": "string", "enum": ["ACTIVE", "SUSPENDED", "BLOCKED"] },
+        "created_at": { "type": "string" }
+      },
+      "required": ["uid", "phone_number", "pseudonym", "role", "status"]
+    },
+    "Wallet": {
+      "title": "Wallet",
+      "description": "Carteira financeira do utilizador gerida exclusivamente pelo backend",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "maxLength": 128 },
+        "available_balance": { "type": "number" },
+        "locked_balance": { "type": "number" },
+        "currency": { "type": "string", "enum": ["AOA"] },
+        "updated_at": { "type": "string" }
+      },
+      "required": ["uid", "available_balance", "locked_balance", "currency"]
+    },
+    "Bet": {
+      "title": "Bet",
+      "description": "Bilhete de aposta desportiva emitido e liquidado pelo motor central",
+      "type": "object",
+      "properties": {
+        "ticketId": { "type": "string", "maxLength": 128 },
+        "uid": { "type": "string", "maxLength": 128 },
+        "stake": { "type": "number" },
+        "totalOdds": { "type": "number" },
+        "potentialPayout": { "type": "number" },
+        "status": { "type": "string", "enum": ["PENDING", "WON", "LOST", "CANCELLED", "CASHED_OUT"] },
+        "created_at": { "type": "string" }
+      },
+      "required": ["ticketId", "uid", "stake", "totalOdds", "potentialPayout", "status"]
+    },
+    "Event": {
+      "title": "Event",
+      "description": "Partida desportiva oficial gerida por integrador de feeds de odds",
+      "type": "object",
+      "properties": {
+        "eventId": { "type": "string", "maxLength": 128 },
+        "sport": { "type": "string", "maxLength": 64 },
+        "league": { "type": "string", "maxLength": 128 },
+        "homeTeam": { "type": "string", "maxLength": 128 },
+        "awayTeam": { "type": "string", "maxLength": 128 },
+        "startTime": { "type": "string" },
+        "status": { "type": "string", "enum": ["PREMATCH", "LIVE", "FINISHED", "CANCELLED"] }
+      },
+      "required": ["eventId", "sport", "league", "homeTeam", "awayTeam", "status"]
+    }
+  },
+  "firestore": {
+    "/users/{uid}": {
+      "schema": "User",
+      "description": "Perfis dos apostadores com dados de contacto e identificador único"
+    },
+    "/users/{uid}/wallet/{docId}": {
+      "schema": "Wallet",
+      "description": "Saldos e posições ativas dos apostadores"
+    },
+    "/bets/{ticketId}": {
+      "schema": "Bet",
+      "description": "Bilhetes de apostas emitidos na plataforma"
+    },
+    "/events/{eventId}": {
+      "schema": "Event",
+      "description": "Eventos e mercados de odds de desporto em tempo real"
+    }
+  }
+}

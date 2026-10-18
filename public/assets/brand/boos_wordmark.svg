@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <!-- 3D Gold Gradient for Letters -->
+    <linearGradient id="boosTextGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#FFE07A" />
+      <stop offset="25%" stopColor="#FFC21A" />
+      <stop offset="65%" stopColor="#F5A900" />
+      <stop offset="100%" stopColor="#C97400" />
+    </linearGradient>
+
+    <linearGradient id="boosCrownGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFE58F" />
+      <stop offset="40%" stopColor="#FFC21A" />
+      <stop offset="100%" stopColor="#D98000" />
+    </linearGradient>
+
+    <!-- Bevel Highlights -->
+    <linearGradient id="goldBevel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFF7CC" />
+      <stop offset="50%" stopColor="#FFC21A" />
+      <stop offset="100%" stopColor="#8A4800" />
+    </linearGradient>
+
+    <filter id="letterShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="5" flood-color="#000c17" flood-opacity="0.75" />
+    </filter>
+  </defs>
+
+  <!-- Crown perched on top of OO -->
+  <g id="wordmarkCrown" transform="translate(230, 20) scale(0.9)" filter="url(#letterShadow)">
+    <path d="M 10 55 L 0 15 L 40 35 L 75 0 L 110 35 L 150 15 L 140 55 Z" fill="url(#boosCrownGold)" stroke="#A35700" stroke-width="3" />
+    <circle cx="0" cy="15" r="5" fill="#FFE58F" stroke="#A35700" stroke-width="1.5" />
+    <circle cx="75" cy="0" r="7" fill="#FFE58F" stroke="#A35700" stroke-width="2" />
+    <circle cx="150" cy="15" r="5" fill="#FFE58F" stroke="#A35700" stroke-width="1.5" />
+  </g>
+
+  <!-- "BOOS" Lettering Group with dimensional extrusion -->
+  <g id="boosGroup" filter="url(#letterShadow)" transform="translate(25, 95)">
+    <!-- 'B' -->
+    <g transform="translate(0, 0)">
+      <path d="M 0 0 L 72 0 C 104 0 120 16 120 42 C 120 58 110 70 94 77 C 114 84 126 98 126 126 C 126 156 104 172 68 172 L 0 172 Z" fill="#8A4800" transform="translate(0, 6)" />
+      <path d="M 0 0 L 72 0 C 104 0 120 16 120 42 C 120 58 110 70 94 77 C 114 84 126 98 126 126 C 126 156 104 172 68 172 L 0 172 Z" fill="url(#boosTextGold)" stroke="#8A4800" stroke-width="3.5" />
+      <!-- B cutouts -->
+      <path d="M 44 32 L 66 32 C 78 32 84 38 84 48 C 84 58 78 64 66 64 L 44 64 Z" fill="#001426" />
+      <path d="M 44 98 L 68 98 C 82 98 88 105 88 116 C 88 128 82 136 68 136 L 44 136 Z" fill="#001426" />
+    </g>
+
+    <!-- First 'O' (with inner dark aperture) -->
+    <g transform="translate(136, 0)">
+      <circle cx="86" cy="92" r="86" fill="#8A4800" />
+      <circle cx="86" cy="86" r="86" fill="url(#boosTextGold)" stroke="#8A4800" stroke-width="3.5" />
+      <circle cx="86" cy="86" r="44" fill="#001426" stroke="#8A4800" stroke-width="3" />
+    </g>
+
+    <!-- Second 'O' (interlocking & dimensional) -->
+    <g transform="translate(282, 0)">
+      <circle cx="86" cy="92" r="86" fill="#8A4800" />
+      <circle cx="86" cy="86" r="86" fill="url(#boosTextGold)" stroke="#8A4800" stroke-width="3.5" />
+      <circle cx="86" cy="86" r="44" fill="#001426" stroke="#8A4800" stroke-width="3" />
+    </g>
+
+    <!-- 'S' -->
+    <g transform="translate(436, 0)">
+      <path d="M 106 42 L 72 52 C 68 40 58 34 48 34 C 36 34 28 40 28 48 C 28 58 38 64 64 72 C 102 84 116 102 116 128 C 116 156 94 176 54 176 C 20 176 0 156 0 126 L 36 116 C 38 132 50 142 62 142 C 74 142 82 136 82 126 C 82 114 70 108 46 100 C 14 88 0 72 0 46 C 0 18 24 0 58 0 C 90 0 104 20 106 42 Z" fill="#8A4800" transform="translate(0, 6)" />
+      <path d="M 106 42 L 72 52 C 68 40 58 34 48 34 C 36 34 28 40 28 48 C 28 58 38 64 64 72 C 102 84 116 102 116 128 C 116 156 94 176 54 176 C 20 176 0 156 0 126 L 36 116 C 38 132 50 142 62 142 C 74 142 82 136 82 126 C 82 114 70 108 46 100 C 14 88 0 72 0 46 C 0 18 24 0 58 0 C 90 0 104 20 106 42 Z" fill="url(#boosTextGold)" stroke="#8A4800" stroke-width="3.5" />
+    </g>
+  </g>
+
+  <!-- "BET" Lettering Group -->
+  <g id="betGroup" filter="url(#letterShadow)" transform="translate(140, 280)">
+    <!-- B -->
+    <g transform="translate(0, 0)">
+      <path d="M 0 0 L 36 0 C 50 0 60 7 60 20 C 60 28 55 33 46 36 C 56 39 62 46 62 58 C 62 72 50 78 34 78 L 0 78 Z" fill="#8A4800" transform="translate(0, 4)" />
+      <path d="M 0 0 L 36 0 C 50 0 60 7 60 20 C 60 28 55 33 46 36 C 56 39 62 46 62 58 C 62 72 50 78 34 78 L 0 78 Z" fill="url(#boosTextGold)" stroke="#8A4800" stroke-width="2.5" />
+      <path d="M 18 16 L 30 16 C 36 16 40 19 40 24 C 40 29 36 32 30 32 L 18 32 Z" fill="#001426" />
+      <path d="M 18 46 L 32 46 C 38 46 42 49 42 55 C 42 61 38 64 32 64 L 18 64 Z" fill="#001426" />
+    </g>
+
+    <!-- E -->
+    <g transform="translate(130, 0)">
+      <path d="M 0 0 L 56 0 L 56 18 L 22 18 L 22 30 L 50 30 L 50 48 L 22 48 L 22 60 L 56 60 L 56 78 L 0 78 Z" fill="#8A4800" transform="translate(0, 4)" />
+      <path d="M 0 0 L 56 0 L 56 18 L 22 18 L 22 30 L 50 30 L 50 48 L 22 48 L 22 60 L 56 60 L 56 78 L 0 78 Z" fill="url(#boosTextGold)" stroke="#8A4800" stroke-width="2.5" />
+    </g>
+
+    <!-- T -->
+    <g transform="translate(260, 0)">
+      <path d="M 0 0 L 64 0 L 64 18 L 42 18 L 42 78 L 22 78 L 22 18 L 0 18 Z" fill="#8A4800" transform="translate(0, 4)" />
+      <path d="M 0 0 L 64 0 L 64 18 L 42 18 L 42 78 L 22 78 L 22 18 L 0 18 Z" fill="url(#boosTextGold)" stroke="#8A4800" stroke-width="2.5" />
+    </g>
+  </g>
+</svg>

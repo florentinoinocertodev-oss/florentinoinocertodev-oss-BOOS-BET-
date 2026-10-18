@@ -1,0 +1,1452 @@
+{
+  "users": {
+    "usr_005a2cbacb2af719": {
+      "id": "usr_005a2cbacb2af719",
+      "phone_e164": "+244923456789",
+      "phone_national": "923 456 789",
+      "country_code": "+244",
+      "created_at": "2026-10-02T21:25:22.322Z",
+      "last_login_at": "2026-10-02T21:25:22.322Z",
+      "status": "ACTIVE"
+    },
+    "usr_95c3bc88fdc9015d": {
+      "id": "usr_95c3bc88fdc9015d",
+      "phone_e164": "+244944114305",
+      "phone_national": "944 114 305",
+      "country_code": "+244",
+      "created_at": "2026-10-06T12:29:04.343Z",
+      "last_login_at": "2026-10-18T17:57:59.779Z",
+      "status": "ACTIVE"
+    },
+    "usr_eee1e0e19570b012": {
+      "id": "usr_eee1e0e19570b012",
+      "phone_e164": "+244923112233",
+      "phone_national": "923 112 233",
+      "country_code": "+244",
+      "created_at": "2026-10-06T12:29:24.293Z",
+      "last_login_at": "2026-10-06T12:29:24.294Z",
+      "status": "ACTIVE"
+    },
+    "usr_bcc509dc543886ba": {
+      "id": "usr_bcc509dc543886ba",
+      "phone_e164": "+244923000001",
+      "phone_national": "923 000 001",
+      "country_code": "+244",
+      "created_at": "2026-10-18T19:21:22.246Z",
+      "last_login_at": "2026-10-18T19:21:22.246Z",
+      "status": "ACTIVE"
+    },
+    "usr_d440df3919267400": {
+      "id": "usr_d440df3919267400",
+      "phone_e164": "+244923000002",
+      "phone_national": "923 000 002",
+      "country_code": "+244",
+      "created_at": "2026-10-18T19:21:22.248Z",
+      "last_login_at": "2026-10-18T19:21:22.248Z",
+      "status": "ACTIVE"
+    },
+    "usr_baccb266a0f58cbb": {
+      "id": "usr_baccb266a0f58cbb",
+      "phone_e164": "+244923000001",
+      "phone_national": "923 000 001",
+      "country_code": "+244",
+      "created_at": "2026-10-18T19:21:56.010Z",
+      "last_login_at": "2026-10-18T19:21:56.052Z",
+      "status": "ACTIVE"
+    },
+    "usr_2c7aefff74e278eb": {
+      "id": "usr_2c7aefff74e278eb",
+      "phone_e164": "+244923000002",
+      "phone_national": "923 000 002",
+      "country_code": "+244",
+      "created_at": "2026-10-18T19:21:56.012Z",
+      "last_login_at": "2026-10-18T19:21:56.012Z",
+      "status": "ACTIVE"
+    },
+    "usr_432d9ad5dcb61520": {
+      "id": "usr_432d9ad5dcb61520",
+      "phone_e164": "+244923000001",
+      "phone_national": "923 000 001",
+      "country_code": "+244",
+      "created_at": "2026-10-18T19:22:36.219Z",
+      "last_login_at": "2026-10-18T19:22:36.269Z",
+      "status": "ACTIVE"
+    },
+    "usr_b35f12de71b2da5f": {
+      "id": "usr_b35f12de71b2da5f",
+      "phone_e164": "+244923000002",
+      "phone_national": "923 000 002",
+      "country_code": "+244",
+      "created_at": "2026-10-18T19:22:36.220Z",
+      "last_login_at": "2026-10-18T19:22:36.220Z",
+      "status": "ACTIVE"
+    },
+    "usr_33a1f7db1fbaa520": {
+      "id": "usr_33a1f7db1fbaa520",
+      "phone_e164": "+244923000001",
+      "phone_national": "923 000 001",
+      "country_code": "+244",
+      "created_at": "2026-10-18T19:23:06.064Z",
+      "last_login_at": "2026-10-18T19:23:06.111Z",
+      "status": "ACTIVE"
+    },
+    "usr_7d1b01561c79e78f": {
+      "id": "usr_7d1b01561c79e78f",
+      "phone_e164": "+244923000002",
+      "phone_national": "923 000 002",
+      "country_code": "+244",
+      "created_at": "2026-10-18T19:23:06.065Z",
+      "last_login_at": "2026-10-18T19:23:06.065Z",
+      "status": "ACTIVE"
+    },
+    "usr_48d37a594942fbb7": {
+      "id": "usr_48d37a594942fbb7",
+      "phone_e164": "+244923000001",
+      "phone_national": "923 000 001",
+      "country_code": "+244",
+      "created_at": "2026-10-18T19:23:41.069Z",
+      "last_login_at": "2026-10-18T19:23:41.118Z",
+      "status": "ACTIVE"
+    },
+    "usr_62cbd109fa82d092": {
+      "id": "usr_62cbd109fa82d092",
+      "phone_e164": "+244923000002",
+      "phone_national": "923 000 002",
+      "country_code": "+244",
+      "created_at": "2026-10-18T19:23:41.071Z",
+      "last_login_at": "2026-10-18T19:23:41.071Z",
+      "status": "ACTIVE"
+    },
+    "usr_f253ae1ac10e1e06": {
+      "id": "usr_f253ae1ac10e1e06",
+      "phone_e164": "+244923000001",
+      "phone_national": "923 000 001",
+      "country_code": "+244",
+      "created_at": "2026-10-18T19:24:09.253Z",
+      "last_login_at": "2026-10-18T19:24:09.310Z",
+      "status": "ACTIVE"
+    },
+    "usr_6c6435c1a07eacc0": {
+      "id": "usr_6c6435c1a07eacc0",
+      "phone_e164": "+244923000002",
+      "phone_national": "923 000 002",
+      "country_code": "+244",
+      "created_at": "2026-10-18T19:24:09.255Z",
+      "last_login_at": "2026-10-18T19:24:09.255Z",
+      "status": "ACTIVE"
+    }
+  },
+  "auth_identities": {
+    "aid_2a91cc7420c2": {
+      "id": "aid_2a91cc7420c2",
+      "user_id": "usr_005a2cbacb2af719",
+      "type": "PHONE",
+      "identifier": "+244923456789",
+      "is_primary": true,
+      "verified_at": "2026-10-02T21:25:22.322Z"
+    },
+    "aid_c113c508afab": {
+      "id": "aid_c113c508afab",
+      "user_id": "usr_95c3bc88fdc9015d",
+      "type": "PHONE",
+      "identifier": "+244944114305",
+      "is_primary": true,
+      "verified_at": "2026-10-06T12:29:04.343Z"
+    },
+    "aid_7e94f05012c9": {
+      "id": "aid_7e94f05012c9",
+      "user_id": "usr_eee1e0e19570b012",
+      "type": "PHONE",
+      "identifier": "+244923112233",
+      "is_primary": true,
+      "verified_at": "2026-10-06T12:29:24.293Z"
+    },
+    "aid_2588095b8502": {
+      "id": "aid_2588095b8502",
+      "user_id": "usr_bcc509dc543886ba",
+      "type": "PHONE",
+      "identifier": "+244923000001",
+      "is_primary": true,
+      "verified_at": "2026-10-18T19:21:22.246Z"
+    },
+    "aid_e2f35bc6bb80": {
+      "id": "aid_e2f35bc6bb80",
+      "user_id": "usr_d440df3919267400",
+      "type": "PHONE",
+      "identifier": "+244923000002",
+      "is_primary": true,
+      "verified_at": "2026-10-18T19:21:22.248Z"
+    },
+    "aid_177026697393": {
+      "id": "aid_177026697393",
+      "user_id": "usr_baccb266a0f58cbb",
+      "type": "PHONE",
+      "identifier": "+244923000001",
+      "is_primary": true,
+      "verified_at": "2026-10-18T19:21:56.010Z"
+    },
+    "aid_faa1d869762d": {
+      "id": "aid_faa1d869762d",
+      "user_id": "usr_2c7aefff74e278eb",
+      "type": "PHONE",
+      "identifier": "+244923000002",
+      "is_primary": true,
+      "verified_at": "2026-10-18T19:21:56.012Z"
+    },
+    "aid_09f10863f9f6": {
+      "id": "aid_09f10863f9f6",
+      "user_id": "usr_432d9ad5dcb61520",
+      "type": "PHONE",
+      "identifier": "+244923000001",
+      "is_primary": true,
+      "verified_at": "2026-10-18T19:22:36.219Z"
+    },
+    "aid_733f18eb051c": {
+      "id": "aid_733f18eb051c",
+      "user_id": "usr_b35f12de71b2da5f",
+      "type": "PHONE",
+      "identifier": "+244923000002",
+      "is_primary": true,
+      "verified_at": "2026-10-18T19:22:36.220Z"
+    },
+    "aid_907b4cb8d3d0": {
+      "id": "aid_907b4cb8d3d0",
+      "user_id": "usr_33a1f7db1fbaa520",
+      "type": "PHONE",
+      "identifier": "+244923000001",
+      "is_primary": true,
+      "verified_at": "2026-10-18T19:23:06.064Z"
+    },
+    "aid_76330f3e8437": {
+      "id": "aid_76330f3e8437",
+      "user_id": "usr_7d1b01561c79e78f",
+      "type": "PHONE",
+      "identifier": "+244923000002",
+      "is_primary": true,
+      "verified_at": "2026-10-18T19:23:06.065Z"
+    },
+    "aid_14db33a13c5a": {
+      "id": "aid_14db33a13c5a",
+      "user_id": "usr_48d37a594942fbb7",
+      "type": "PHONE",
+      "identifier": "+244923000001",
+      "is_primary": true,
+      "verified_at": "2026-10-18T19:23:41.069Z"
+    },
+    "aid_4e28a99b2856": {
+      "id": "aid_4e28a99b2856",
+      "user_id": "usr_62cbd109fa82d092",
+      "type": "PHONE",
+      "identifier": "+244923000002",
+      "is_primary": true,
+      "verified_at": "2026-10-18T19:23:41.071Z"
+    },
+    "aid_3859ca61e745": {
+      "id": "aid_3859ca61e745",
+      "user_id": "usr_f253ae1ac10e1e06",
+      "type": "PHONE",
+      "identifier": "+244923000001",
+      "is_primary": true,
+      "verified_at": "2026-10-18T19:24:09.253Z"
+    },
+    "aid_ac2bf7030623": {
+      "id": "aid_ac2bf7030623",
+      "user_id": "usr_6c6435c1a07eacc0",
+      "type": "PHONE",
+      "identifier": "+244923000002",
+      "is_primary": true,
+      "verified_at": "2026-10-18T19:24:09.255Z"
+    }
+  },
+  "phone_verifications": {
+    "+244923456789": {
+      "id": "ver_c1858c00074c9740",
+      "phone_e164": "+244923456789",
+      "hashed_otp": "2a7847d42732965facb64bf8bf53f82b971fb289dedf3bed7805359e797d34e3",
+      "salt": "1413143a331958f19419046fcccd01b1",
+      "expires_at": 1790982988134,
+      "attempts": 0,
+      "verified": false,
+      "created_at": 1790982688134,
+      "ip_address": "127.0.0.1"
+    }
+  },
+  "public_profiles": {
+    "usr_005a2cbacb2af719": {
+      "user_id": "usr_005a2cbacb2af719",
+      "username": "Player-2842",
+      "avatar_id": "fimser_palanca",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED"
+      ],
+      "custom_username_set": false
+    },
+    "usr_95c3bc88fdc9015d": {
+      "user_id": "usr_95c3bc88fdc9015d",
+      "username": "Player-5000",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_eee1e0e19570b012": {
+      "user_id": "usr_eee1e0e19570b012",
+      "username": "Player-1407",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_bcc509dc543886ba": {
+      "user_id": "usr_bcc509dc543886ba",
+      "username": "Player-8990",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_d440df3919267400": {
+      "user_id": "usr_d440df3919267400",
+      "username": "Boos-Player-2164",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_baccb266a0f58cbb": {
+      "user_id": "usr_baccb266a0f58cbb",
+      "username": "Player-4206",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_2c7aefff74e278eb": {
+      "user_id": "usr_2c7aefff74e278eb",
+      "username": "Player-3861",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_432d9ad5dcb61520": {
+      "user_id": "usr_432d9ad5dcb61520",
+      "username": "Player-9152",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_b35f12de71b2da5f": {
+      "user_id": "usr_b35f12de71b2da5f",
+      "username": "Player-5595",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_33a1f7db1fbaa520": {
+      "user_id": "usr_33a1f7db1fbaa520",
+      "username": "Player-5233",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_7d1b01561c79e78f": {
+      "user_id": "usr_7d1b01561c79e78f",
+      "username": "Player-6644",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_48d37a594942fbb7": {
+      "user_id": "usr_48d37a594942fbb7",
+      "username": "Player-4587",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_62cbd109fa82d092": {
+      "user_id": "usr_62cbd109fa82d092",
+      "username": "Player-5853",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_f253ae1ac10e1e06": {
+      "user_id": "usr_f253ae1ac10e1e06",
+      "username": "Boos-Player-1356",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_6c6435c1a07eacc0": {
+      "user_id": "usr_6c6435c1a07eacc0",
+      "username": "Player-1414",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    }
+  },
+  "private_identities": {
+    "usr_005a2cbacb2af719": {
+      "user_id": "usr_005a2cbacb2af719",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-02T21:25:22.322Z"
+    },
+    "usr_95c3bc88fdc9015d": {
+      "user_id": "usr_95c3bc88fdc9015d",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-06T12:29:04.343Z"
+    },
+    "usr_eee1e0e19570b012": {
+      "user_id": "usr_eee1e0e19570b012",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-06T12:29:24.293Z"
+    },
+    "usr_bcc509dc543886ba": {
+      "user_id": "usr_bcc509dc543886ba",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-18T19:21:22.246Z"
+    },
+    "usr_d440df3919267400": {
+      "user_id": "usr_d440df3919267400",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-18T19:21:22.248Z"
+    },
+    "usr_baccb266a0f58cbb": {
+      "user_id": "usr_baccb266a0f58cbb",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-18T19:21:56.010Z"
+    },
+    "usr_2c7aefff74e278eb": {
+      "user_id": "usr_2c7aefff74e278eb",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-18T19:21:56.012Z"
+    },
+    "usr_432d9ad5dcb61520": {
+      "user_id": "usr_432d9ad5dcb61520",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-18T19:22:36.219Z"
+    },
+    "usr_b35f12de71b2da5f": {
+      "user_id": "usr_b35f12de71b2da5f",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-18T19:22:36.220Z"
+    },
+    "usr_33a1f7db1fbaa520": {
+      "user_id": "usr_33a1f7db1fbaa520",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-18T19:23:06.064Z"
+    },
+    "usr_7d1b01561c79e78f": {
+      "user_id": "usr_7d1b01561c79e78f",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-18T19:23:06.065Z"
+    },
+    "usr_48d37a594942fbb7": {
+      "user_id": "usr_48d37a594942fbb7",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-18T19:23:41.069Z"
+    },
+    "usr_62cbd109fa82d092": {
+      "user_id": "usr_62cbd109fa82d092",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-18T19:23:41.071Z"
+    },
+    "usr_f253ae1ac10e1e06": {
+      "user_id": "usr_f253ae1ac10e1e06",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-18T19:24:09.253Z"
+    },
+    "usr_6c6435c1a07eacc0": {
+      "user_id": "usr_6c6435c1a07eacc0",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-18T19:24:09.255Z"
+    }
+  },
+  "kyc_verifications": {
+    "usr_005a2cbacb2af719": {
+      "user_id": "usr_005a2cbacb2af719",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "FIMSER_ANGOLA_COMPLIANCE"
+    },
+    "usr_95c3bc88fdc9015d": {
+      "user_id": "usr_95c3bc88fdc9015d",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_eee1e0e19570b012": {
+      "user_id": "usr_eee1e0e19570b012",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_bcc509dc543886ba": {
+      "user_id": "usr_bcc509dc543886ba",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_d440df3919267400": {
+      "user_id": "usr_d440df3919267400",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_baccb266a0f58cbb": {
+      "user_id": "usr_baccb266a0f58cbb",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_2c7aefff74e278eb": {
+      "user_id": "usr_2c7aefff74e278eb",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_432d9ad5dcb61520": {
+      "user_id": "usr_432d9ad5dcb61520",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_b35f12de71b2da5f": {
+      "user_id": "usr_b35f12de71b2da5f",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_33a1f7db1fbaa520": {
+      "user_id": "usr_33a1f7db1fbaa520",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_7d1b01561c79e78f": {
+      "user_id": "usr_7d1b01561c79e78f",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_48d37a594942fbb7": {
+      "user_id": "usr_48d37a594942fbb7",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_62cbd109fa82d092": {
+      "user_id": "usr_62cbd109fa82d092",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_f253ae1ac10e1e06": {
+      "user_id": "usr_f253ae1ac10e1e06",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_6c6435c1a07eacc0": {
+      "user_id": "usr_6c6435c1a07eacc0",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    }
+  },
+  "wallets": {
+    "usr_005a2cbacb2af719": {
+      "user_id": "usr_005a2cbacb2af719",
+      "currency": "AOA",
+      "balance": 5000,
+      "bonus_balance": 1000,
+      "locked_balance": 0,
+      "updated_at": "2026-10-02T21:25:22.322Z"
+    },
+    "usr_95c3bc88fdc9015d": {
+      "user_id": "usr_95c3bc88fdc9015d",
+      "currency": "AOA",
+      "balance": 10000,
+      "bonus_balance": 2500,
+      "locked_balance": 0,
+      "updated_at": "2026-10-06T12:29:04.343Z"
+    },
+    "usr_eee1e0e19570b012": {
+      "user_id": "usr_eee1e0e19570b012",
+      "currency": "AOA",
+      "balance": 10000,
+      "bonus_balance": 2500,
+      "locked_balance": 0,
+      "updated_at": "2026-10-06T12:29:24.293Z"
+    },
+    "usr_bcc509dc543886ba": {
+      "user_id": "usr_bcc509dc543886ba",
+      "currency": "AOA",
+      "balance": 7500,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-18T19:21:22.288Z"
+    },
+    "usr_d440df3919267400": {
+      "user_id": "usr_d440df3919267400",
+      "currency": "AOA",
+      "balance": 0,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-18T19:21:22.248Z"
+    },
+    "usr_baccb266a0f58cbb": {
+      "user_id": "usr_baccb266a0f58cbb",
+      "currency": "AOA",
+      "balance": 7500,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-18T19:21:56.044Z"
+    },
+    "usr_2c7aefff74e278eb": {
+      "user_id": "usr_2c7aefff74e278eb",
+      "currency": "AOA",
+      "balance": 0,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-18T19:21:56.012Z"
+    },
+    "usr_432d9ad5dcb61520": {
+      "user_id": "usr_432d9ad5dcb61520",
+      "currency": "AOA",
+      "balance": 7500,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-18T19:22:36.265Z"
+    },
+    "usr_b35f12de71b2da5f": {
+      "user_id": "usr_b35f12de71b2da5f",
+      "currency": "AOA",
+      "balance": 25000,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-18T19:22:36.448Z"
+    },
+    "usr_33a1f7db1fbaa520": {
+      "user_id": "usr_33a1f7db1fbaa520",
+      "currency": "AOA",
+      "balance": 7500,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-18T19:23:06.106Z"
+    },
+    "usr_7d1b01561c79e78f": {
+      "user_id": "usr_7d1b01561c79e78f",
+      "currency": "AOA",
+      "balance": 25000,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-18T19:23:06.268Z"
+    },
+    "usr_48d37a594942fbb7": {
+      "user_id": "usr_48d37a594942fbb7",
+      "currency": "AOA",
+      "balance": 7500,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-18T19:23:41.114Z"
+    },
+    "usr_62cbd109fa82d092": {
+      "user_id": "usr_62cbd109fa82d092",
+      "currency": "AOA",
+      "balance": 25000,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-18T19:23:41.263Z"
+    },
+    "usr_f253ae1ac10e1e06": {
+      "user_id": "usr_f253ae1ac10e1e06",
+      "currency": "AOA",
+      "balance": 7500,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-18T19:24:09.305Z"
+    },
+    "usr_6c6435c1a07eacc0": {
+      "user_id": "usr_6c6435c1a07eacc0",
+      "currency": "AOA",
+      "balance": 25000,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-18T19:24:09.461Z"
+    }
+  },
+  "user_sessions": {
+    "305502a0402e3180efc1473d5d183d8734a0226374b0fc8597ff6b8afd93e093": {
+      "token": "305502a0402e3180efc1473d5d183d8734a0226374b0fc8597ff6b8afd93e093",
+      "user_id": "usr_95c3bc88fdc9015d",
+      "user_agent": "curl/7.88.1",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-06T12:29:04.344Z",
+      "expires_at": "2026-11-05T12:29:04.344Z",
+      "is_active": true
+    },
+    "cb80e845db670e3a480fe56c248811c6860eae6c22e4971c02d1c090b02c7ac4": {
+      "token": "cb80e845db670e3a480fe56c248811c6860eae6c22e4971c02d1c090b02c7ac4",
+      "user_id": "usr_eee1e0e19570b012",
+      "user_agent": "curl/7.88.1",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-06T12:29:24.294Z",
+      "expires_at": "2026-11-05T12:29:24.294Z",
+      "is_active": true
+    },
+    "75ab3a53fd27e389da6c0b9359cb02cc78edde84576dcfc333c082c4d1b711da": {
+      "token": "75ab3a53fd27e389da6c0b9359cb02cc78edde84576dcfc333c082c4d1b711da",
+      "user_id": "usr_95c3bc88fdc9015d",
+      "user_agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Mobile Safari/537.36",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-18T17:57:59.779Z",
+      "expires_at": "2026-11-17T17:57:59.779Z",
+      "is_active": true
+    },
+    "8bef9dc16bfa7f003538071f0a5fa7d4e7742e9f5a7e634b18af6ba0c5b6d410": {
+      "token": "8bef9dc16bfa7f003538071f0a5fa7d4e7742e9f5a7e634b18af6ba0c5b6d410",
+      "user_id": "usr_baccb266a0f58cbb",
+      "user_agent": "test-agent",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-18T19:21:56.052Z",
+      "expires_at": "2026-11-17T19:21:56.052Z",
+      "is_active": true
+    },
+    "068b13b41b847675334a04528b556d532fee0b979be0c512f3417a87c06cb38d": {
+      "token": "068b13b41b847675334a04528b556d532fee0b979be0c512f3417a87c06cb38d",
+      "user_id": "usr_432d9ad5dcb61520",
+      "user_agent": "test-agent",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-18T19:22:36.269Z",
+      "expires_at": "2026-11-17T19:22:36.269Z",
+      "is_active": true
+    },
+    "85d184c1dd06f809d8bd67f60f7900c440c84638fe6e34fa810a887a937c80fa": {
+      "token": "85d184c1dd06f809d8bd67f60f7900c440c84638fe6e34fa810a887a937c80fa",
+      "user_id": "usr_33a1f7db1fbaa520",
+      "user_agent": "test-agent",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-18T19:23:06.111Z",
+      "expires_at": "2026-11-17T19:23:06.111Z",
+      "is_active": true
+    },
+    "7ec43d90d43540ceaf59fe07a435a9c4a884a9f181f91b10114dfa2c7fbb75d1": {
+      "token": "7ec43d90d43540ceaf59fe07a435a9c4a884a9f181f91b10114dfa2c7fbb75d1",
+      "user_id": "usr_48d37a594942fbb7",
+      "user_agent": "test-agent",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-18T19:23:41.118Z",
+      "expires_at": "2026-11-17T19:23:41.118Z",
+      "is_active": true
+    },
+    "993eae8d3cf50cd8500db928d116dcef73f9e3f438213a21310fb2b32573b522": {
+      "token": "993eae8d3cf50cd8500db928d116dcef73f9e3f438213a21310fb2b32573b522",
+      "user_id": "usr_f253ae1ac10e1e06",
+      "user_agent": "test-agent",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-18T19:24:09.310Z",
+      "expires_at": "2026-11-17T19:24:09.310Z",
+      "is_active": true
+    }
+  },
+  "security_events": [
+    {
+      "id": "sec_19f91f9864e6",
+      "created_at": "2026-10-02T21:25:15.926Z",
+      "user_id": null,
+      "event_type": "OTP_REQUEST_FAILED",
+      "ip": "127.0.0.1",
+      "details": "Falha no envio de OTP para +244923456789. Estado do gateway: UNAVAILABLE. Erro: O fornecedor de SMS não está configurado no servidor. Nenhuma mensagem fictícia foi simulada."
+    },
+    {
+      "id": "sec_e5f5fc5da67c",
+      "created_at": "2026-10-02T21:25:22.321Z",
+      "user_id": null,
+      "event_type": "OTP_DISPATCHED",
+      "ip": "127.0.0.1",
+      "details": "Código OTP gerado e despachado com sucesso para +244923456789. Expira em 5 minutos."
+    },
+    {
+      "id": "sec_b26982ba4341",
+      "created_at": "2026-10-02T21:25:22.322Z",
+      "user_id": null,
+      "event_type": "OTP_INCORRECT_ATTEMPT",
+      "ip": "127.0.0.1",
+      "details": "Tentativa de código inválida para +244923456789. Tentativas restantes: 2"
+    },
+    {
+      "id": "sec_c043bd44b473",
+      "created_at": "2026-10-02T21:25:22.323Z",
+      "user_id": "usr_005a2cbacb2af719",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923456789). Pseudónimo público atribuído: Player-2842"
+    },
+    {
+      "id": "sec_b4b2c3d50c5a",
+      "created_at": "2026-10-02T23:08:27.261Z",
+      "user_id": null,
+      "event_type": "OTP_REQUEST_FAILED",
+      "ip": "127.0.0.1",
+      "details": "Falha no envio de OTP para +244944114305. Estado do gateway: UNAVAILABLE. Erro: O fornecedor de SMS não está configurado no servidor. Nenhuma mensagem fictícia foi simulada."
+    },
+    {
+      "id": "sec_8d16cac12100",
+      "created_at": "2026-10-02T23:11:18.959Z",
+      "user_id": null,
+      "event_type": "OTP_REQUEST_FAILED",
+      "ip": "127.0.0.1",
+      "details": "Falha no envio de OTP para +244923456789. Estado do gateway: UNAVAILABLE. Erro: O fornecedor de SMS não está configurado no servidor. Nenhuma mensagem fictícia foi simulada."
+    },
+    {
+      "id": "sec_a6bb698c954f",
+      "created_at": "2026-10-02T23:11:28.135Z",
+      "user_id": null,
+      "event_type": "OTP_DISPATCHED",
+      "ip": "127.0.0.1",
+      "details": "Código OTP gerado e despachado com sucesso para +244923456789. Expira em 5 minutos."
+    },
+    {
+      "id": "sec_d595493f6a18",
+      "created_at": "2026-10-06T12:29:04.344Z",
+      "user_id": "usr_95c3bc88fdc9015d",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244944114305). Pseudónimo público atribuído: Player-5000"
+    },
+    {
+      "id": "sec_c7b17e4c8ae2",
+      "created_at": "2026-10-06T12:29:04.345Z",
+      "user_id": "usr_95c3bc88fdc9015d",
+      "event_type": "LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "details": "Sessão iniciada com sucesso. Token emitido."
+    },
+    {
+      "id": "sec_729180ef4306",
+      "created_at": "2026-10-06T12:29:04.345Z",
+      "user_id": "usr_95c3bc88fdc9015d",
+      "event_type": "QUICK_LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "details": "Acesso telefónico direto autorizado para +244944114305."
+    },
+    {
+      "id": "sec_7a7fe31ee2ff",
+      "created_at": "2026-10-06T12:29:13.651Z",
+      "user_id": null,
+      "event_type": "OTP_FALLBACK_ACTIVE",
+      "ip": "127.0.0.1",
+      "details": "Disparo direto ativado para +244923112233 devido a indisponibilidade de gateway externo. Código de acesso de contingência disponibilizado."
+    },
+    {
+      "id": "sec_a575a1cbd202",
+      "created_at": "2026-10-06T12:29:13.652Z",
+      "user_id": null,
+      "event_type": "OTP_DISPATCHED",
+      "ip": "127.0.0.1",
+      "details": "Código OTP gerado para +244923112233. Expira em 5 minutos."
+    },
+    {
+      "id": "sec_1f592968fc70",
+      "created_at": "2026-10-06T12:29:24.294Z",
+      "user_id": "usr_eee1e0e19570b012",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923112233). Pseudónimo público atribuído: Player-1407"
+    },
+    {
+      "id": "sec_e988e95c1cf5",
+      "created_at": "2026-10-06T12:29:24.294Z",
+      "user_id": "usr_eee1e0e19570b012",
+      "event_type": "LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "details": "Sessão iniciada com sucesso. Token emitido."
+    },
+    {
+      "id": "sec_087361da9992",
+      "created_at": "2026-10-18T17:57:59.780Z",
+      "user_id": "usr_95c3bc88fdc9015d",
+      "event_type": "LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "details": "Sessão iniciada com sucesso. Token emitido."
+    },
+    {
+      "id": "sec_a6efe80fc6b7",
+      "created_at": "2026-10-18T17:57:59.780Z",
+      "user_id": "usr_95c3bc88fdc9015d",
+      "event_type": "QUICK_LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "details": "Acesso telefónico direto autorizado para +244944114305."
+    },
+    {
+      "id": "sec_76b38abade21",
+      "created_at": "2026-10-18T19:21:22.248Z",
+      "user_id": "usr_bcc509dc543886ba",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000001). Pseudónimo público atribuído: Player-8990"
+    },
+    {
+      "id": "sec_7c773c72ea37",
+      "created_at": "2026-10-18T19:21:22.248Z",
+      "user_id": "usr_d440df3919267400",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000002). Pseudónimo público atribuído: Boos-Player-2164"
+    },
+    {
+      "id": "sec_fb2807a5b65e",
+      "created_at": "2026-10-18T19:21:22.288Z",
+      "user_id": "usr_bcc509dc543886ba",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 7 500 Kz creditado com sucesso via multicaixa_express (Ref: mcx_285b204e6e78, TxId: tx_1792351282287_094f24aa)."
+    },
+    {
+      "id": "sec_8b88f6095ce5",
+      "created_at": "2026-10-18T19:21:56.012Z",
+      "user_id": "usr_baccb266a0f58cbb",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000001). Pseudónimo público atribuído: Player-4206"
+    },
+    {
+      "id": "sec_ed9c7a95e632",
+      "created_at": "2026-10-18T19:21:56.013Z",
+      "user_id": "usr_2c7aefff74e278eb",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000002). Pseudónimo público atribuído: Player-3861"
+    },
+    {
+      "id": "sec_0c8d066c71a9",
+      "created_at": "2026-10-18T19:21:56.047Z",
+      "user_id": "usr_baccb266a0f58cbb",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 7 500 Kz creditado com sucesso via multicaixa_express (Ref: mcx_9407c6e16cb6, TxId: tx_1792351316043_c8aec444)."
+    },
+    {
+      "id": "sec_2d2982c28484",
+      "created_at": "2026-10-18T19:21:56.052Z",
+      "user_id": "usr_baccb266a0f58cbb",
+      "event_type": "LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "details": "Sessão iniciada com sucesso. Token emitido."
+    },
+    {
+      "id": "sec_091cd39bc333",
+      "created_at": "2026-10-18T19:22:36.220Z",
+      "user_id": "usr_432d9ad5dcb61520",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000001). Pseudónimo público atribuído: Player-9152"
+    },
+    {
+      "id": "sec_fe8d44d1d5df",
+      "created_at": "2026-10-18T19:22:36.221Z",
+      "user_id": "usr_b35f12de71b2da5f",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000002). Pseudónimo público atribuído: Player-5595"
+    },
+    {
+      "id": "sec_af8df2ccad7a",
+      "created_at": "2026-10-18T19:22:36.265Z",
+      "user_id": "usr_432d9ad5dcb61520",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 7 500 Kz creditado com sucesso via multicaixa_express (Ref: mcx_eb6d43b99dcd, TxId: tx_1792351356264_bf22f088)."
+    },
+    {
+      "id": "sec_ad00983bb801",
+      "created_at": "2026-10-18T19:22:36.270Z",
+      "user_id": "usr_432d9ad5dcb61520",
+      "event_type": "LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "details": "Sessão iniciada com sucesso. Token emitido."
+    },
+    {
+      "id": "sec_724d58a43f12",
+      "created_at": "2026-10-18T19:22:36.449Z",
+      "user_id": "usr_b35f12de71b2da5f",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 25 000 Kz creditado com sucesso via multicaixa_express (Ref: mcx_ad2a7d317539, TxId: tx_1792351356433_539d5e38)."
+    },
+    {
+      "id": "sec_7a230ae02c52",
+      "created_at": "2026-10-18T19:23:06.065Z",
+      "user_id": "usr_33a1f7db1fbaa520",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000001). Pseudónimo público atribuído: Player-5233"
+    },
+    {
+      "id": "sec_9df3d4350381",
+      "created_at": "2026-10-18T19:23:06.065Z",
+      "user_id": "usr_7d1b01561c79e78f",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000002). Pseudónimo público atribuído: Player-6644"
+    },
+    {
+      "id": "sec_4fdd31029499",
+      "created_at": "2026-10-18T19:23:06.107Z",
+      "user_id": "usr_33a1f7db1fbaa520",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 7 500 Kz creditado com sucesso via multicaixa_express (Ref: mcx_2d9a955bdb43, TxId: tx_1792351386105_e52b7674)."
+    },
+    {
+      "id": "sec_91d0a9c1372e",
+      "created_at": "2026-10-18T19:23:06.112Z",
+      "user_id": "usr_33a1f7db1fbaa520",
+      "event_type": "LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "details": "Sessão iniciada com sucesso. Token emitido."
+    },
+    {
+      "id": "sec_12e346b75bbd",
+      "created_at": "2026-10-18T19:23:06.268Z",
+      "user_id": "usr_7d1b01561c79e78f",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 25 000 Kz creditado com sucesso via multicaixa_express (Ref: mcx_e81004398c3c, TxId: tx_1792351386255_4ae9d084)."
+    },
+    {
+      "id": "sec_b1a7b9878886",
+      "created_at": "2026-10-18T19:23:41.070Z",
+      "user_id": "usr_48d37a594942fbb7",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000001). Pseudónimo público atribuído: Player-4587"
+    },
+    {
+      "id": "sec_d7b02480acc1",
+      "created_at": "2026-10-18T19:23:41.071Z",
+      "user_id": "usr_62cbd109fa82d092",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000002). Pseudónimo público atribuído: Player-5853"
+    },
+    {
+      "id": "sec_72273fed2bf0",
+      "created_at": "2026-10-18T19:23:41.114Z",
+      "user_id": "usr_48d37a594942fbb7",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 7 500 Kz creditado com sucesso via multicaixa_express (Ref: mcx_89d3db29432c, TxId: tx_1792351421113_f16d63b2)."
+    },
+    {
+      "id": "sec_982cac1c2fb9",
+      "created_at": "2026-10-18T19:23:41.118Z",
+      "user_id": "usr_48d37a594942fbb7",
+      "event_type": "LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "details": "Sessão iniciada com sucesso. Token emitido."
+    },
+    {
+      "id": "sec_548e49deb235",
+      "created_at": "2026-10-18T19:23:41.264Z",
+      "user_id": "usr_62cbd109fa82d092",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 25 000 Kz creditado com sucesso via multicaixa_express (Ref: mcx_77787df618c8, TxId: tx_1792351421252_7f048b19)."
+    },
+    {
+      "id": "sec_274b3eefa245",
+      "created_at": "2026-10-18T19:24:09.255Z",
+      "user_id": "usr_f253ae1ac10e1e06",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000001). Pseudónimo público atribuído: Boos-Player-1356"
+    },
+    {
+      "id": "sec_df4a6c14156d",
+      "created_at": "2026-10-18T19:24:09.256Z",
+      "user_id": "usr_6c6435c1a07eacc0",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000002). Pseudónimo público atribuído: Player-1414"
+    },
+    {
+      "id": "sec_cf57e4744f71",
+      "created_at": "2026-10-18T19:24:09.306Z",
+      "user_id": "usr_f253ae1ac10e1e06",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 7 500 Kz creditado com sucesso via multicaixa_express (Ref: mcx_d90d297bb09f, TxId: tx_1792351449305_69801ebe)."
+    },
+    {
+      "id": "sec_911c13e4feb1",
+      "created_at": "2026-10-18T19:24:09.310Z",
+      "user_id": "usr_f253ae1ac10e1e06",
+      "event_type": "LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "details": "Sessão iniciada com sucesso. Token emitido."
+    },
+    {
+      "id": "sec_bfcfcd1d056f",
+      "created_at": "2026-10-18T19:24:09.461Z",
+      "user_id": "usr_6c6435c1a07eacc0",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 25 000 Kz creditado com sucesso via multicaixa_express (Ref: mcx_9cc5d3c7d458, TxId: tx_1792351449447_6359509b)."
+    }
+  ],
+  "bets": {},
+  "confirmed_deposits": {
+    "tx_1792351282287_094f24aa": {
+      "transaction_id": "tx_1792351282287_094f24aa",
+      "user_id": "usr_bcc509dc543886ba",
+      "amount": 7500,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_285b204e6e78",
+      "credited_at": "2026-10-18T19:21:22.288Z"
+    },
+    "tx_1792351316043_c8aec444": {
+      "transaction_id": "tx_1792351316043_c8aec444",
+      "user_id": "usr_baccb266a0f58cbb",
+      "amount": 7500,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_9407c6e16cb6",
+      "credited_at": "2026-10-18T19:21:56.044Z"
+    },
+    "tx_1792351356264_bf22f088": {
+      "transaction_id": "tx_1792351356264_bf22f088",
+      "user_id": "usr_432d9ad5dcb61520",
+      "amount": 7500,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_eb6d43b99dcd",
+      "credited_at": "2026-10-18T19:22:36.265Z"
+    },
+    "tx_1792351356433_539d5e38": {
+      "transaction_id": "tx_1792351356433_539d5e38",
+      "user_id": "usr_b35f12de71b2da5f",
+      "amount": 25000,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_ad2a7d317539",
+      "credited_at": "2026-10-18T19:22:36.448Z"
+    },
+    "tx_1792351386105_e52b7674": {
+      "transaction_id": "tx_1792351386105_e52b7674",
+      "user_id": "usr_33a1f7db1fbaa520",
+      "amount": 7500,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_2d9a955bdb43",
+      "credited_at": "2026-10-18T19:23:06.106Z"
+    },
+    "tx_1792351386255_4ae9d084": {
+      "transaction_id": "tx_1792351386255_4ae9d084",
+      "user_id": "usr_7d1b01561c79e78f",
+      "amount": 25000,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_e81004398c3c",
+      "credited_at": "2026-10-18T19:23:06.268Z"
+    },
+    "tx_1792351421113_f16d63b2": {
+      "transaction_id": "tx_1792351421113_f16d63b2",
+      "user_id": "usr_48d37a594942fbb7",
+      "amount": 7500,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_89d3db29432c",
+      "credited_at": "2026-10-18T19:23:41.114Z"
+    },
+    "tx_1792351421252_7f048b19": {
+      "transaction_id": "tx_1792351421252_7f048b19",
+      "user_id": "usr_62cbd109fa82d092",
+      "amount": 25000,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_77787df618c8",
+      "credited_at": "2026-10-18T19:23:41.263Z"
+    },
+    "tx_1792351449305_69801ebe": {
+      "transaction_id": "tx_1792351449305_69801ebe",
+      "user_id": "usr_f253ae1ac10e1e06",
+      "amount": 7500,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_d90d297bb09f",
+      "credited_at": "2026-10-18T19:24:09.305Z"
+    },
+    "tx_1792351449447_6359509b": {
+      "transaction_id": "tx_1792351449447_6359509b",
+      "user_id": "usr_6c6435c1a07eacc0",
+      "amount": 25000,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_9cc5d3c7d458",
+      "credited_at": "2026-10-18T19:24:09.461Z"
+    }
+  }
+}

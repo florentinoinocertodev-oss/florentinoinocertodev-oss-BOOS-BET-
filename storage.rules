@@ -1,0 +1,36 @@
+rules_version = '2';
+service firebase.storage {
+  match /b/{bucket}/o {
+
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    function isOwner(uid) {
+      return isAuthenticated() && request.auth.uid == uid;
+    }
+
+    function isCompliance() {
+      return isAuthenticated() && (request.auth.token.role == 'COMPLIANCE' || request.auth.token.role == 'SUPERADMIN');
+    }
+
+    // Default deny-all fallback
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+
+    // KYC Private Storage Boundary
+    // Caminho restrito: private/kyc/{uid}/{caseId}/{fileName}
+    match /private/kyc/{uid}/{caseId}/{fileName} {
+      // Leitura permitida apenas ao dono ou ao oficial de compliance/auditoria
+      allow read: if isOwner(uid) || isCompliance();
+
+      // Upload permitido apenas ao próprio usuário com arquivo de imagem válido e tamanho < 5MB
+      allow write: if isOwner(uid)
+                   && request.resource.size < 5 * 1024 * 1024
+                   && request.resource.contentType.matches('image/(jpeg|png|webp)')
+                   && request.resource.metadata != null;
+    }
+  }
+}

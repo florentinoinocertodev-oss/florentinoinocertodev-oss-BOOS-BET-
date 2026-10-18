@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <linearGradient id="favGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFF2A3" />
+      <stop offset="40%" stopColor="#FFC21A" />
+      <stop offset="100%" stopColor="#F5A900" />
+    </linearGradient>
+    <radialGradient id="favNavy" cx="50%" cy="50%" r="50%">
+      <stop offset="50%" stopColor="#06345A" />
+      <stop offset="100%" stopColor="#001426" />
+    </radialGradient>
+  </defs>
+
+  <!-- Circular background badge -->
+  <circle cx="64" cy="64" r="62" fill="url(#favNavy)" stroke="url(#favGold)" stroke-width="4" />
+
+  <!-- Mascote Head -->
+  <g transform="translate(64, 70) scale(0.24)">
+    <!-- Neck & Chain -->
+    <path d="M -45 90 L -45 130 C -45 155 45 155 45 130 L 45 90 Z" fill="#B16135" />
+    <path d="M -70 120 C -30 160 30 160 70 120" fill="none" stroke="url(#favGold)" stroke-width="20" stroke-linecap="round" stroke-dasharray="14 4" />
+
+    <!-- Face -->
+    <path d="M -75 -15 C -85 25 -80 70 -50 110 C -30 135 30 135 50 110 C 80 70 85 25 75 -15 C 70 -60 -70 -60 -75 -15 Z" fill="#B16135" />
+
+    <!-- Hair -->
+    <path d="M -76 -30 C -65 -60 -20 -70 0 -70 C 20 -70 65 -60 76 -30 Z" fill="#1A110B" />
+
+    <!-- Left Eye -->
+    <ellipse cx="-35" cy="0" rx="18" ry="12" fill="#FFFFFF" />
+    <circle cx="-33" cy="0" r="7" fill="#000000" />
+    <path d="M -55 -17 C -45 -25 -22 -25 -14 -17" fill="none" stroke="#1A110B" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Right Eye Wink -->
+    <path d="M 14 0 C 25 -7 40 -7 54 2" fill="none" stroke="#1A110B" stroke-width="6" stroke-linecap="round" />
+    <path d="M 12 -23 C 25 -33 45 -31 58 -21" fill="none" stroke="#1A110B" stroke-width="6" stroke-linecap="round" />
+
+    <!-- Smile -->
+    <path d="M -45 55 C -30 100 30 100 45 55 Z" fill="#FFFFFF" stroke="#661C08" stroke-width="4" />
+    <path d="M -40 80 C -35 110 -20 125 0 127 C 20 125 35 110 40 80 Z" fill="#1A110B" />
+
+    <!-- Crown -->
+    <g transform="translate(0, -95)">
+      <path d="M -85 25 L -105 -60 L -50 -10 L 0 -90 L 50 -10 L 105 -60 L 85 25 Z" fill="url(#favGold)" stroke="#7A3D00" stroke-width="4" />
+      <circle cx="0" cy="-90" r="14" fill="#FFF2A3" />
+      <circle cx="-105" cy="-60" r="10" fill="#FFF2A3" />
+      <circle cx="105" cy="-60" r="10" fill="#FFF2A3" />
+      <rect x="-22" y="-10" width="44" height="46" rx="8" fill="#FFC21A" stroke="#8A4800" stroke-width="3" />
+      <text x="0" y="26" font-family="Arial, sans-serif" font-weight="900" font-size="34" fill="#001426" text-anchor="middle">B</text>
+    </g>
+  </g>
+</svg>

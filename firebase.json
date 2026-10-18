@@ -1,0 +1,8 @@
+{
+  "firestore": {
+    "database": "ai-studio-fimserbetauth-a089bc36-b41b-4132-843b-ed192c773aa0",
+    "location": "europe-west2",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

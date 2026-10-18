@@ -1,0 +1,315 @@
+@import "tailwindcss";
+
+:root {
+  /* BOOS BET Royal Sports Luxury — Official Color Palette */
+  --boos-bg: #030D17;
+  --boos-bg-secondary: #061827;
+  --boos-card: #092237;
+  --boos-card-elevated: #0D2940;
+  --boos-border: #143A52;
+  --boos-blue-secondary: #0D4C73;
+  --boos-gold: #F7B500;
+  --boos-gold-light: #FFD65A;
+  --boos-gold-deep: #C88700;
+  --boos-text-primary: #F5F7FA;
+  --boos-text-secondary: #91A4B5;
+  --boos-text-tertiary: #5F7485;
+  --boos-green: #19C985;
+  --boos-red: #F04F5F;
+
+  /* Spacing Base Unit (4px increment) */
+  --boos-spacing-unit: 4px;
+
+  /* Border Radii (Consistent Scale: 6, 10, 12, 16, 20, 24px) */
+  --boos-radius-xs: 6px;
+  --boos-radius-sm: 10px;
+  --boos-radius-md: 12px;
+  --boos-radius-lg: 16px;
+  --boos-radius-xl: 20px;
+  --boos-radius-2xl: 24px;
+  --boos-radius-full: 9999px;
+
+  /* Typography Scales */
+  --boos-font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --boos-font-display: "Space Grotesk", sans-serif;
+  --boos-font-mono: "JetBrains Mono", monospace;
+
+  /* Aliases for backwards compatibility */
+  --boos-orange: #F7B500;
+  --boos-navy: #030D17;
+  --boos-blue: #092237;
+  --boos-white: #F5F7FA;
+  --boos-black: #000000;
+}
+
+@theme {
+  /* Typography Scales */
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Official Royal Sports Luxury Colors */
+  --color-boos-bg: #030D17;
+  --color-boos-bg-secondary: #061827;
+  --color-boos-card: #092237;
+  --color-boos-card-elevated: #0D2940;
+  --color-boos-border: #143A52;
+  --color-boos-blue-secondary: #0D4C73;
+  --color-boos-gold: #F7B500;
+  --color-boos-gold-light: #FFD65A;
+  --color-boos-gold-deep: #C88700;
+  --color-boos-text-primary: #F5F7FA;
+  --color-boos-text-secondary: #91A4B5;
+  --color-boos-text-tertiary: #5F7485;
+  --color-boos-green: #19C985;
+  --color-boos-red: #F04F5F;
+
+  /* Aliases for backwards compatibility */
+  --color-boos-orange: #F7B500;
+  --color-boos-navy: #030D17;
+  --color-boos-blue: #092237;
+  --color-boos-white: #F5F7FA;
+  --color-boos-black: #000000;
+}
+
+/* Base Body Styles */
+body {
+  font-family: var(--font-sans);
+  background-color: var(--boos-bg);
+  color: var(--boos-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: radial-gradient(circle at 50% -5%, #0D4C73 0%, #030D17 70%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+/* ==========================================================================
+   BOOS BET HIERARCHICAL TYPOGRAPHY SYSTEM
+   - Space Grotesk for Titles and Major Headers (Weight: 700 - 800)
+   - Inter for Body, Navigation, Inputs & Data (Weight: 400 - 600)
+   - Font weight 500 strictly enforced for Metadata, Badges & Information
+   - JetBrains Mono for Odds, Betting Slips & Metrics
+   ========================================================================== */
+
+/* H1 / Hero Titles (36px - 44px, Weight: 800, Space Grotesk) */
+h1,
+.boos-hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(2rem, 3.5vw, 2.75rem); /* 32px to 44px */
+  line-height: 1.15;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  color: var(--boos-text-primary);
+}
+
+/* H2 / Page Titles (24px - 28px, Weight: 700 - 800, Space Grotesk) */
+h2,
+.boos-page-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 2.2vw, 1.75rem); /* 24px to 28px */
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  color: var(--boos-text-primary);
+}
+
+/* H3 / Section Titles (18px - 20px, Weight: 700, Space Grotesk / Inter) */
+h3,
+.boos-section-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.35;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--boos-text-primary);
+}
+
+/* H4 / Card Titles (16px - 18px, Weight: 700, Inter) */
+h4,
+.boos-card-title {
+  font-family: var(--font-sans);
+  font-size: 1.0625rem; /* 17px */
+  line-height: 1.4;
+  font-weight: 700;
+  color: var(--boos-text-primary);
+}
+
+/* H5 / Sub-card / Group Labels (14px - 15px, Weight: 600 - 700) */
+h5 {
+  font-family: var(--font-sans);
+  font-size: 0.9375rem; /* 15px */
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--boos-text-secondary);
+}
+
+/* H6 / Micro Section Headers */
+h6 {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem; /* 13px */
+  line-height: 1.3;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--boos-text-tertiary);
+}
+
+/* Body Text Hierarchy */
+p {
+  font-family: var(--font-sans);
+  font-size: 0.9375rem; /* 15px */
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--boos-text-secondary);
+}
+
+/* Metadata & Small Information (Weight: 500 Enforced) */
+.boos-metadata,
+.metadata,
+time,
+small {
+  font-family: var(--font-sans);
+  font-size: 0.75rem; /* 12px */
+  line-height: 1.25rem; /* 16px */
+  font-weight: 500 !important;
+  color: var(--boos-text-tertiary);
+}
+
+.boos-information {
+  font-family: var(--font-sans);
+  font-size: 0.8125rem; /* 13px */
+  line-height: 1.25rem; /* 18px */
+  font-weight: 500 !important;
+  color: var(--boos-text-secondary);
+}
+
+/* Odds and Numerical Precision (JetBrains Mono, Weight: 700) */
+.boos-odds,
+.odds-value {
+  font-family: var(--font-mono);
+  font-size: 1.0625rem; /* 17px */
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+/* Micro Badges (HOT, LIVE, VIP, BOOST) */
+.boos-badge-micro {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem; /* 11px */
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Inputs, Selects and Form Controls */
+input,
+select,
+textarea,
+button {
+  font-family: var(--font-sans);
+}
+
+/* ==========================================================================
+   BOOS BET ROYAL SPORTS LUXURY BUTTON SYSTEM
+   - Primary Action Button: Metallic Gold (#F7B500) surface
+   - Subtle & sophisticated #F7B500 radial-glow on hover complying strictly with
+     Royal Sports Luxury aesthetic guidelines (subtle, non-distracting, high-end)
+   ========================================================================== */
+
+.boos-btn-primary,
+button.boos-btn-primary,
+.boos-button-primary,
+button[data-variant="primary"],
+.btn-primary,
+.boos-primary-action {
+  position: relative;
+  background: linear-gradient(135deg, #FFD65A 0%, #F7B500 52%, #C88700 100%);
+  color: #030D17;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  border-radius: var(--boos-radius-md);
+  border: 1px solid rgba(255, 214, 90, 0.45);
+  box-shadow: 0 4px 14px rgba(247, 181, 0, 0.22);
+  cursor: pointer;
+  isolation: isolate;
+  overflow: hidden;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  text-shadow: 0 0.5px 1px rgba(255, 255, 255, 0.2);
+}
+
+/* Subtle #F7B500 radial-glow layer on hover */
+.boos-btn-primary::before,
+button.boos-btn-primary::before,
+.boos-button-primary::before,
+button[data-variant="primary"]::before,
+.btn-primary::before,
+.boos-primary-action::before {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  background: radial-gradient(circle at 50% 50%, rgba(247, 181, 0, 0.35) 0%, rgba(247, 181, 0, 0.12) 48%, transparent 72%);
+  border-radius: inherit;
+  opacity: 0;
+  pointer-events: none;
+  z-index: -1;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: scale(0.92);
+}
+
+/* Subtle inner metallic radial highlight */
+.boos-btn-primary::after,
+button.boos-btn-primary::after,
+.boos-button-primary::after,
+button[data-variant="primary"]::after,
+.btn-primary::after,
+.boos-primary-action::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at 50% 0%, rgba(255, 255, 255, 0.32) 0%, rgba(247, 181, 0, 0.18) 42%, transparent 80%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.boos-btn-primary:hover:not(:disabled),
+button.boos-btn-primary:hover:not(:disabled),
+.boos-button-primary:hover:not(:disabled),
+button[data-variant="primary"]:hover:not(:disabled),
+.btn-primary:hover:not(:disabled),
+.boos-primary-action:hover:not(:disabled) {
+  transform: translateY(-1px);
+  border-color: rgba(255, 214, 90, 0.75);
+  box-shadow: 0 0 22px -2px rgba(247, 181, 0, 0.32), 0 4px 18px rgba(247, 181, 0, 0.26);
+}
+
+.boos-btn-primary:hover:not(:disabled)::before,
+button.boos-btn-primary:hover:not(:disabled)::before,
+.boos-button-primary:hover:not(:disabled)::before,
+button[data-variant="primary"]:hover:not(:disabled)::before,
+.btn-primary:hover:not(:disabled)::before,
+.boos-primary-action:hover:not(:disabled)::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.boos-btn-primary:hover:not(:disabled)::after,
+button.boos-btn-primary:hover:not(:disabled)::after,
+.boos-button-primary:hover:not(:disabled)::after,
+button[data-variant="primary"]:hover:not(:disabled)::after,
+.btn-primary:hover:not(:disabled)::after,
+.boos-primary-action:hover:not(:disabled)::after {
+  opacity: 1;
+}
+
+.boos-btn-primary:active:not(:disabled),
+button.boos-btn-primary:active:not(:disabled),
+.boos-button-primary:active:not(:disabled),
+button[data-variant="primary"]:active:not(:disabled),
+.btn-primary:active:not(:disabled),
+.boos-primary-action:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: 0 0 12px -2px rgba(247, 181, 0, 0.25), 0 2px 8px rgba(247, 181, 0, 0.18);
+}

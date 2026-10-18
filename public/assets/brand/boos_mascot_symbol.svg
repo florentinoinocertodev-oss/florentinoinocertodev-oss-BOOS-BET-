@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Gold Metallic Gradients -->
+    <linearGradient id="boosGoldCrown" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFF2A3" />
+      <stop offset="25%" stopColor="#FFC21A" />
+      <stop offset="60%" stopColor="#F5A900" />
+      <stop offset="90%" stopColor="#D98000" />
+      <stop offset="100%" stopColor="#8A4800" />
+    </linearGradient>
+
+    <linearGradient id="boosGoldRing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFDF73" />
+      <stop offset="30%" stopColor="#FFC21A" />
+      <stop offset="70%" stopColor="#F5A900" />
+      <stop offset="100%" stopColor="#B36B00" />
+    </linearGradient>
+
+    <!-- Deep Navy & Brand Blue Backdrop -->
+    <radialGradient id="boosNavyBackdrop" cx="50%" cy="50%" r="50%">
+      <stop offset="60%" stopColor="#06345A" />
+      <stop offset="95%" stopColor="#001426" />
+      <stop offset="100%" stopColor="#000c17" />
+    </radialGradient>
+
+    <linearGradient id="skinTone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#C97A4A" />
+      <stop offset="50%" stopColor="#B16135" />
+      <stop offset="100%" stopColor="#85411E" />
+    </linearGradient>
+    
+    <linearGradient id="chainGold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stopColor="#FFDF73" />
+      <stop offset="50%" stopColor="#FFC21A" />
+      <stop offset="100%" stopColor="#F5A900" />
+    </linearGradient>
+    
+    <filter id="boosDropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+  </defs>
+
+  <!-- Outer Ring Crest Frame with Deep Navy Disc -->
+  <circle cx="250" cy="275" r="185" fill="url(#boosNavyBackdrop)" stroke="url(#boosGoldRing)" stroke-width="14" filter="url(#boosDropShadow)" />
+  <circle cx="250" cy="275" r="172" fill="none" stroke="#FFC21A" stroke-width="2" opacity="0.6" />
+
+  <!-- Mascote Head & Neck -->
+  <g id="mascotCharacter">
+    <!-- Neck -->
+    <path d="M 205 350 L 205 410 C 205 435 295 435 295 410 L 295 350 Z" fill="url(#skinTone)" />
+    
+    <!-- Heavy Gold Cuban-link Chain on Neck -->
+    <path d="M 180 395 C 220 440 280 440 320 395" fill="none" stroke="url(#chainGold)" stroke-width="18" stroke-linecap="round" stroke-dasharray="14 4" />
+    <path d="M 195 410 C 230 450 270 450 305 410" fill="none" stroke="#F5A900" stroke-width="12" stroke-linecap="round" stroke-dasharray="10 4" />
+
+    <!-- Head / Jaw / Face Structure -->
+    <path d="M 175 250 C 165 290 170 335 200 375 C 220 400 280 400 300 375 C 330 335 335 290 325 250 C 320 205 180 205 175 250 Z" fill="url(#skinTone)" filter="url(#boosDropShadow)" />
+
+    <!-- Shaped Hairline & Short Fade -->
+    <path d="M 174 235 C 185 205 230 195 250 195 C 270 195 315 205 326 235 C 320 248 310 240 295 240 C 275 240 270 235 250 235 C 230 235 225 240 205 240 C 190 240 180 248 174 235 Z" fill="#1A110B" />
+    <path d="M 172 245 L 175 295 C 178 300 183 295 183 285 L 181 250 Z" fill="#1A110B" />
+    <path d="M 328 245 L 325 295 C 322 300 317 295 317 285 L 319 250 Z" fill="#1A110B" />
+
+    <!-- Ears with Gold Studs -->
+    <path d="M 170 265 C 158 275 158 305 173 315 Z" fill="#B16135" />
+    <circle cx="166" cy="295" r="4" fill="#FFC21A" />
+    <path d="M 330 265 C 342 275 342 305 327 315 Z" fill="#B16135" />
+    <circle cx="334" cy="295" r="4" fill="#FFC21A" />
+
+    <!-- Stylish Goatee and Moustache -->
+    <path d="M 215 310 C 235 305 265 305 285 310 C 285 318 268 318 250 318 C 232 318 215 318 215 310 Z" fill="#1A110B" />
+    <path d="M 210 345 C 205 385 220 400 250 402 C 280 400 295 385 290 345 C 275 375 225 375 210 345 Z" fill="#1A110B" />
+
+    <!-- Left Eye (Open, piercing & bright) -->
+    <g id="leftEye">
+      <ellipse cx="215" cy="265" rx="18" ry="12" fill="#FFFFFF" />
+      <circle cx="217" cy="265" r="8" fill="#3D1F0D" />
+      <circle cx="217" cy="265" r="4" fill="#000000" />
+      <circle cx="219" cy="263" r="2.5" fill="#FFFFFF" />
+      <!-- Eyebrow -->
+      <path d="M 195 248 C 205 240 228 240 236 248" fill="none" stroke="#1A110B" stroke-width="6" stroke-linecap="round" />
+    </g>
+
+    <!-- Right Eye (Charismatic Wink) -->
+    <g id="rightEyeWink">
+      <path d="M 264 265 C 275 258 290 258 304 267" fill="none" stroke="#1A110B" stroke-width="5" stroke-linecap="round" />
+      <!-- Eyebrow raised playfully -->
+      <path d="M 262 242 C 275 232 295 234 308 244" fill="none" stroke="#1A110B" stroke-width="6" stroke-linecap="round" />
+    </g>
+
+    <!-- Nose -->
+    <path d="M 246 260 L 244 285 C 238 288 242 295 250 295 C 258 295 262 288 256 285 Z" fill="#9C4D24" />
+
+    <!-- Broad Confident Smile & White Teeth -->
+    <path d="M 205 320 C 220 365 280 365 295 320 C 275 322 225 322 205 320 Z" fill="#FFFFFF" stroke="#661C08" stroke-width="3" />
+    <path d="M 205 320 C 220 342 280 342 295 320" fill="none" stroke="#9C4D24" stroke-width="2" />
+
+    <!-- Royal Golden Crown with "B" Emblem -->
+    <g id="royalCrown" filter="url(#boosDropShadow)">
+      <!-- Crown Base Rim -->
+      <path d="M 155 195 C 190 215 310 215 345 195 L 355 160 C 310 180 190 180 145 160 Z" fill="url(#boosGoldCrown)" stroke="#7A3D00" stroke-width="3" />
+      
+      <!-- Crown Spikes / Peaks -->
+      <path d="M 145 160 L 125 75 L 180 125 L 250 45 L 320 125 L 375 75 L 355 160 Z" fill="url(#boosGoldCrown)" stroke="#7A3D00" stroke-width="3" />
+
+      <!-- Jewels / Spheres on Spikes -->
+      <circle cx="125" cy="75" r="9" fill="url(#boosGoldRing)" stroke="#8A4800" stroke-width="2" />
+      <circle cx="180" cy="125" r="8" fill="url(#boosGoldRing)" stroke="#8A4800" stroke-width="2" />
+      <circle cx="250" cy="45" r="12" fill="url(#boosGoldRing)" stroke="#8A4800" stroke-width="2.5" />
+      <circle cx="320" cy="125" r="8" fill="url(#boosGoldRing)" stroke="#8A4800" stroke-width="2" />
+      <circle cx="375" cy="75" r="9" fill="url(#boosGoldRing)" stroke="#8A4800" stroke-width="2" />
+
+      <!-- Center Gold Plaque with Navy 'B' for BOOS -->
+      <rect x="228" y="125" width="44" height="48" rx="8" fill="url(#boosGoldRing)" stroke="#8A4800" stroke-width="2.5" />
+      <!-- Letter 'B' -->
+      <text x="250" y="161" font-family="'Syne', Arial, sans-serif" font-weight="900" font-size="34" fill="#001426" text-anchor="middle">B</text>
+    </g>
+  </g>
+</svg>

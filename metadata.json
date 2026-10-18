@@ -1,0 +1,6 @@
+{
+  "name": "BOOS BET",
+  "description": "BOOS BET — A Casa Oficial do Jogador Rei. Plataforma de Apostas e Jogos em Angola. Autenticação por telemóvel (+244), OTP, identidade pública pseudónima e separação estrita de KYC privado.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

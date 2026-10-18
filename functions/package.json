@@ -1,0 +1,17 @@
+{
+  "name": "boos-bet-functions",
+  "version": "1.0.0",
+  "description": "BOOS BET — Cloud Functions Serverless Architecture",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "private": true
+}
