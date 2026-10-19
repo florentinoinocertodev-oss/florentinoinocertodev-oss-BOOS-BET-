@@ -134,6 +134,60 @@
       "created_at": "2026-10-18T19:24:09.255Z",
       "last_login_at": "2026-10-18T19:24:09.255Z",
       "status": "ACTIVE"
+    },
+    "usr_0f9f32b63b999b06": {
+      "id": "usr_0f9f32b63b999b06",
+      "phone_e164": "+244923000001",
+      "phone_national": "923 000 001",
+      "country_code": "+244",
+      "created_at": "2026-10-19T12:43:27.389Z",
+      "last_login_at": "2026-10-19T12:43:27.441Z",
+      "status": "ACTIVE"
+    },
+    "usr_1759169e608d4894": {
+      "id": "usr_1759169e608d4894",
+      "phone_e164": "+244923000002",
+      "phone_national": "923 000 002",
+      "country_code": "+244",
+      "created_at": "2026-10-19T12:43:27.391Z",
+      "last_login_at": "2026-10-19T12:43:27.391Z",
+      "status": "ACTIVE"
+    },
+    "usr_48d5bcc72c7ac988": {
+      "id": "usr_48d5bcc72c7ac988",
+      "phone_e164": "+244923000001",
+      "phone_national": "923 000 001",
+      "country_code": "+244",
+      "created_at": "2026-10-19T12:49:32.346Z",
+      "last_login_at": "2026-10-19T12:49:32.396Z",
+      "status": "ACTIVE"
+    },
+    "usr_e544192dc5098180": {
+      "id": "usr_e544192dc5098180",
+      "phone_e164": "+244923000002",
+      "phone_national": "923 000 002",
+      "country_code": "+244",
+      "created_at": "2026-10-19T12:49:32.347Z",
+      "last_login_at": "2026-10-19T12:49:32.347Z",
+      "status": "ACTIVE"
+    },
+    "usr_81342f8498606a03": {
+      "id": "usr_81342f8498606a03",
+      "phone_e164": "+244923000001",
+      "phone_national": "923 000 001",
+      "country_code": "+244",
+      "created_at": "2026-10-19T12:58:01.701Z",
+      "last_login_at": "2026-10-19T12:58:01.747Z",
+      "status": "ACTIVE"
+    },
+    "usr_2927d0e472eb93f0": {
+      "id": "usr_2927d0e472eb93f0",
+      "phone_e164": "+244923000002",
+      "phone_national": "923 000 002",
+      "country_code": "+244",
+      "created_at": "2026-10-19T12:58:01.702Z",
+      "last_login_at": "2026-10-19T12:58:01.702Z",
+      "status": "ACTIVE"
     }
   },
   "auth_identities": {
@@ -256,6 +310,54 @@
       "identifier": "+244923000002",
       "is_primary": true,
       "verified_at": "2026-10-18T19:24:09.255Z"
+    },
+    "aid_38317111e821": {
+      "id": "aid_38317111e821",
+      "user_id": "usr_0f9f32b63b999b06",
+      "type": "PHONE",
+      "identifier": "+244923000001",
+      "is_primary": true,
+      "verified_at": "2026-10-19T12:43:27.389Z"
+    },
+    "aid_ba940bdbe766": {
+      "id": "aid_ba940bdbe766",
+      "user_id": "usr_1759169e608d4894",
+      "type": "PHONE",
+      "identifier": "+244923000002",
+      "is_primary": true,
+      "verified_at": "2026-10-19T12:43:27.391Z"
+    },
+    "aid_4af8a9686754": {
+      "id": "aid_4af8a9686754",
+      "user_id": "usr_48d5bcc72c7ac988",
+      "type": "PHONE",
+      "identifier": "+244923000001",
+      "is_primary": true,
+      "verified_at": "2026-10-19T12:49:32.346Z"
+    },
+    "aid_e5a649ac97f9": {
+      "id": "aid_e5a649ac97f9",
+      "user_id": "usr_e544192dc5098180",
+      "type": "PHONE",
+      "identifier": "+244923000002",
+      "is_primary": true,
+      "verified_at": "2026-10-19T12:49:32.347Z"
+    },
+    "aid_d252d53d5378": {
+      "id": "aid_d252d53d5378",
+      "user_id": "usr_81342f8498606a03",
+      "type": "PHONE",
+      "identifier": "+244923000001",
+      "is_primary": true,
+      "verified_at": "2026-10-19T12:58:01.701Z"
+    },
+    "aid_cc7594421ee0": {
+      "id": "aid_cc7594421ee0",
+      "user_id": "usr_2927d0e472eb93f0",
+      "type": "PHONE",
+      "identifier": "+244923000002",
+      "is_primary": true,
+      "verified_at": "2026-10-19T12:58:01.702Z"
     }
   },
   "phone_verifications": {
@@ -523,6 +625,108 @@
       "custom_username_set": false,
       "ai_free_analyses": 1,
       "ai_analyses_count": 0
+    },
+    "usr_0f9f32b63b999b06": {
+      "user_id": "usr_0f9f32b63b999b06",
+      "username": "Player-6089",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_1759169e608d4894": {
+      "user_id": "usr_1759169e608d4894",
+      "username": "Player-9737",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_48d5bcc72c7ac988": {
+      "user_id": "usr_48d5bcc72c7ac988",
+      "username": "Player-3236",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_e544192dc5098180": {
+      "user_id": "usr_e544192dc5098180",
+      "username": "Player-9405",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_81342f8498606a03": {
+      "user_id": "usr_81342f8498606a03",
+      "username": "Boos-Player-8073",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
+    },
+    "usr_2927d0e472eb93f0": {
+      "user_id": "usr_2927d0e472eb93f0",
+      "username": "Player-9891",
+      "avatar_id": "boos_mascot_king",
+      "level": 1,
+      "xp": 0,
+      "rank_points": 100,
+      "win_streak": 0,
+      "badges": [
+        "NOVO_JOGADOR",
+        "ANGOLA_VERIFIED",
+        "BOOS_VIP"
+      ],
+      "custom_username_set": false,
+      "ai_free_analyses": 1,
+      "ai_analyses_count": 0
     }
   },
   "private_identities": {
@@ -690,6 +894,72 @@
       "email": null,
       "email_verified": false,
       "updated_at": "2026-10-18T19:24:09.255Z"
+    },
+    "usr_0f9f32b63b999b06": {
+      "user_id": "usr_0f9f32b63b999b06",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-19T12:43:27.389Z"
+    },
+    "usr_1759169e608d4894": {
+      "user_id": "usr_1759169e608d4894",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-19T12:43:27.391Z"
+    },
+    "usr_48d5bcc72c7ac988": {
+      "user_id": "usr_48d5bcc72c7ac988",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-19T12:49:32.346Z"
+    },
+    "usr_e544192dc5098180": {
+      "user_id": "usr_e544192dc5098180",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-19T12:49:32.347Z"
+    },
+    "usr_81342f8498606a03": {
+      "user_id": "usr_81342f8498606a03",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-19T12:58:01.701Z"
+    },
+    "usr_2927d0e472eb93f0": {
+      "user_id": "usr_2927d0e472eb93f0",
+      "full_legal_name": null,
+      "date_of_birth": null,
+      "doc_type": null,
+      "doc_number": null,
+      "nationality": "AO",
+      "email": null,
+      "email_verified": false,
+      "updated_at": "2026-10-19T12:58:01.702Z"
     }
   },
   "kyc_verifications": {
@@ -807,6 +1077,54 @@
     },
     "usr_6c6435c1a07eacc0": {
       "user_id": "usr_6c6435c1a07eacc0",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_0f9f32b63b999b06": {
+      "user_id": "usr_0f9f32b63b999b06",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_1759169e608d4894": {
+      "user_id": "usr_1759169e608d4894",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_48d5bcc72c7ac988": {
+      "user_id": "usr_48d5bcc72c7ac988",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_e544192dc5098180": {
+      "user_id": "usr_e544192dc5098180",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_81342f8498606a03": {
+      "user_id": "usr_81342f8498606a03",
+      "status": "NOT_STARTED",
+      "submitted_at": null,
+      "reviewed_at": null,
+      "reviewer_notes": null,
+      "provider": "BOOS_BET_ANGOLA_COMPLIANCE"
+    },
+    "usr_2927d0e472eb93f0": {
+      "user_id": "usr_2927d0e472eb93f0",
       "status": "NOT_STARTED",
       "submitted_at": null,
       "reviewed_at": null,
@@ -934,6 +1252,54 @@
       "bonus_balance": 0,
       "locked_balance": 0,
       "updated_at": "2026-10-18T19:24:09.461Z"
+    },
+    "usr_0f9f32b63b999b06": {
+      "user_id": "usr_0f9f32b63b999b06",
+      "currency": "AOA",
+      "balance": 7500,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-19T12:43:27.436Z"
+    },
+    "usr_1759169e608d4894": {
+      "user_id": "usr_1759169e608d4894",
+      "currency": "AOA",
+      "balance": 25000,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-19T12:43:27.585Z"
+    },
+    "usr_48d5bcc72c7ac988": {
+      "user_id": "usr_48d5bcc72c7ac988",
+      "currency": "AOA",
+      "balance": 7500,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-19T12:49:32.391Z"
+    },
+    "usr_e544192dc5098180": {
+      "user_id": "usr_e544192dc5098180",
+      "currency": "AOA",
+      "balance": 25000,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-19T12:49:32.529Z"
+    },
+    "usr_81342f8498606a03": {
+      "user_id": "usr_81342f8498606a03",
+      "currency": "AOA",
+      "balance": 7500,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-19T12:58:01.742Z"
+    },
+    "usr_2927d0e472eb93f0": {
+      "user_id": "usr_2927d0e472eb93f0",
+      "currency": "AOA",
+      "balance": 25000,
+      "bonus_balance": 0,
+      "locked_balance": 0,
+      "updated_at": "2026-10-19T12:58:01.875Z"
     }
   },
   "user_sessions": {
@@ -1007,6 +1373,33 @@
       "ip_address": "127.0.0.1",
       "created_at": "2026-10-18T19:24:09.310Z",
       "expires_at": "2026-11-17T19:24:09.310Z",
+      "is_active": true
+    },
+    "f1c671c8659bc51d027c2439a165fc04c0a709e4501ea31534ad44b04c61c26c": {
+      "token": "f1c671c8659bc51d027c2439a165fc04c0a709e4501ea31534ad44b04c61c26c",
+      "user_id": "usr_0f9f32b63b999b06",
+      "user_agent": "test-agent",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T12:43:27.441Z",
+      "expires_at": "2026-11-18T12:43:27.441Z",
+      "is_active": true
+    },
+    "c8095395aa7e93034226dbcda2bc22c7a3ab7bcaf26dfa90fbffce39fa4a5aec": {
+      "token": "c8095395aa7e93034226dbcda2bc22c7a3ab7bcaf26dfa90fbffce39fa4a5aec",
+      "user_id": "usr_48d5bcc72c7ac988",
+      "user_agent": "test-agent",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T12:49:32.396Z",
+      "expires_at": "2026-11-18T12:49:32.396Z",
+      "is_active": true
+    },
+    "c82deaeddc65f070b3df636a7d1635650cdafddffc4e6f0526eac5541a008ab3": {
+      "token": "c82deaeddc65f070b3df636a7d1635650cdafddffc4e6f0526eac5541a008ab3",
+      "user_id": "usr_81342f8498606a03",
+      "user_agent": "test-agent",
+      "ip_address": "127.0.0.1",
+      "created_at": "2026-10-19T12:58:01.747Z",
+      "expires_at": "2026-11-18T12:58:01.747Z",
       "is_active": true
     }
   },
@@ -1354,6 +1747,126 @@
       "event_type": "DEPOSIT_CONFIRMED_CREDITED",
       "ip": "127.0.0.1",
       "details": "Depósito autenticado de 25 000 Kz creditado com sucesso via multicaixa_express (Ref: mcx_9cc5d3c7d458, TxId: tx_1792351449447_6359509b)."
+    },
+    {
+      "id": "sec_a4805e902c0d",
+      "created_at": "2026-10-19T12:43:27.391Z",
+      "user_id": "usr_0f9f32b63b999b06",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000001). Pseudónimo público atribuído: Player-6089"
+    },
+    {
+      "id": "sec_bff6c8c0d45c",
+      "created_at": "2026-10-19T12:43:27.392Z",
+      "user_id": "usr_1759169e608d4894",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000002). Pseudónimo público atribuído: Player-9737"
+    },
+    {
+      "id": "sec_385182218ab9",
+      "created_at": "2026-10-19T12:43:27.437Z",
+      "user_id": "usr_0f9f32b63b999b06",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 7 500 Kz creditado com sucesso via multicaixa_express (Ref: mcx_9fbd8771e75d, TxId: tx_1792413807435_a162268a)."
+    },
+    {
+      "id": "sec_20e77d8b9ae1",
+      "created_at": "2026-10-19T12:43:27.441Z",
+      "user_id": "usr_0f9f32b63b999b06",
+      "event_type": "LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "details": "Sessão iniciada com sucesso. Token emitido."
+    },
+    {
+      "id": "sec_bcfc75e3eccd",
+      "created_at": "2026-10-19T12:43:27.585Z",
+      "user_id": "usr_1759169e608d4894",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 25 000 Kz creditado com sucesso via multicaixa_express (Ref: mcx_4efbee36c009, TxId: tx_1792413807578_c2c666cb)."
+    },
+    {
+      "id": "sec_37bb191558ce",
+      "created_at": "2026-10-19T12:49:32.347Z",
+      "user_id": "usr_48d5bcc72c7ac988",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000001). Pseudónimo público atribuído: Player-3236"
+    },
+    {
+      "id": "sec_6b16a0107cf3",
+      "created_at": "2026-10-19T12:49:32.348Z",
+      "user_id": "usr_e544192dc5098180",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000002). Pseudónimo público atribuído: Player-9405"
+    },
+    {
+      "id": "sec_16250b2c268b",
+      "created_at": "2026-10-19T12:49:32.392Z",
+      "user_id": "usr_48d5bcc72c7ac988",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 7 500 Kz creditado com sucesso via multicaixa_express (Ref: mcx_f4dbbeda2ce4, TxId: tx_1792414172390_af6c67be)."
+    },
+    {
+      "id": "sec_c1addac6df69",
+      "created_at": "2026-10-19T12:49:32.396Z",
+      "user_id": "usr_48d5bcc72c7ac988",
+      "event_type": "LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "details": "Sessão iniciada com sucesso. Token emitido."
+    },
+    {
+      "id": "sec_f920104b3e67",
+      "created_at": "2026-10-19T12:49:32.529Z",
+      "user_id": "usr_e544192dc5098180",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 25 000 Kz creditado com sucesso via multicaixa_express (Ref: mcx_eb9243ed4969, TxId: tx_1792414172519_3b78f55d)."
+    },
+    {
+      "id": "sec_1cc213d5f9c7",
+      "created_at": "2026-10-19T12:58:01.702Z",
+      "user_id": "usr_81342f8498606a03",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000001). Pseudónimo público atribuído: Boos-Player-8073"
+    },
+    {
+      "id": "sec_87008218e156",
+      "created_at": "2026-10-19T12:58:01.703Z",
+      "user_id": "usr_2927d0e472eb93f0",
+      "event_type": "ACCOUNT_CREATED",
+      "ip": "127.0.0.1",
+      "details": "Conta FIMSER criada via Telemóvel (+244923000002). Pseudónimo público atribuído: Player-9891"
+    },
+    {
+      "id": "sec_fcaeac9a9265",
+      "created_at": "2026-10-19T12:58:01.743Z",
+      "user_id": "usr_81342f8498606a03",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 7 500 Kz creditado com sucesso via multicaixa_express (Ref: mcx_bb98bf84a0c4, TxId: tx_1792414681741_6ff4641b)."
+    },
+    {
+      "id": "sec_56391b3a5e96",
+      "created_at": "2026-10-19T12:58:01.747Z",
+      "user_id": "usr_81342f8498606a03",
+      "event_type": "LOGIN_SUCCESS",
+      "ip": "127.0.0.1",
+      "details": "Sessão iniciada com sucesso. Token emitido."
+    },
+    {
+      "id": "sec_f3ed515f71b8",
+      "created_at": "2026-10-19T12:58:01.876Z",
+      "user_id": "usr_2927d0e472eb93f0",
+      "event_type": "DEPOSIT_CONFIRMED_CREDITED",
+      "ip": "127.0.0.1",
+      "details": "Depósito autenticado de 25 000 Kz creditado com sucesso via multicaixa_express (Ref: mcx_9d772ad87f2c, TxId: tx_1792414681865_2300f835)."
     }
   ],
   "bets": {},
@@ -1447,6 +1960,60 @@
       "provider": "multicaixa_express",
       "reference": "mcx_9cc5d3c7d458",
       "credited_at": "2026-10-18T19:24:09.461Z"
+    },
+    "tx_1792413807435_a162268a": {
+      "transaction_id": "tx_1792413807435_a162268a",
+      "user_id": "usr_0f9f32b63b999b06",
+      "amount": 7500,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_9fbd8771e75d",
+      "credited_at": "2026-10-19T12:43:27.436Z"
+    },
+    "tx_1792413807578_c2c666cb": {
+      "transaction_id": "tx_1792413807578_c2c666cb",
+      "user_id": "usr_1759169e608d4894",
+      "amount": 25000,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_4efbee36c009",
+      "credited_at": "2026-10-19T12:43:27.585Z"
+    },
+    "tx_1792414172390_af6c67be": {
+      "transaction_id": "tx_1792414172390_af6c67be",
+      "user_id": "usr_48d5bcc72c7ac988",
+      "amount": 7500,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_f4dbbeda2ce4",
+      "credited_at": "2026-10-19T12:49:32.391Z"
+    },
+    "tx_1792414172519_3b78f55d": {
+      "transaction_id": "tx_1792414172519_3b78f55d",
+      "user_id": "usr_e544192dc5098180",
+      "amount": 25000,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_eb9243ed4969",
+      "credited_at": "2026-10-19T12:49:32.529Z"
+    },
+    "tx_1792414681741_6ff4641b": {
+      "transaction_id": "tx_1792414681741_6ff4641b",
+      "user_id": "usr_81342f8498606a03",
+      "amount": 7500,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_bb98bf84a0c4",
+      "credited_at": "2026-10-19T12:58:01.742Z"
+    },
+    "tx_1792414681865_2300f835": {
+      "transaction_id": "tx_1792414681865_2300f835",
+      "user_id": "usr_2927d0e472eb93f0",
+      "amount": 25000,
+      "currency": "AOA",
+      "provider": "multicaixa_express",
+      "reference": "mcx_9d772ad87f2c",
+      "credited_at": "2026-10-19T12:58:01.875Z"
     }
   }
 }
